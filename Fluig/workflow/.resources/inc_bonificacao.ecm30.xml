@@ -1,0 +1,3530 @@
+<list>
+  <ProcessDefinition>
+    <processDefinitionPK>
+      <companyId>1</companyId>
+      <processId>inc_bonificacao</processId>
+    </processDefinitionPK>
+    <processDescription>Inclusão de Fluxo Bonificação</processDescription>
+    <instruction></instruction>
+    <active>true</active>
+    <publicProcess>false</publicProcess>
+    <volumeId>Default</volumeId>
+    <categoryId>Bonificação.Inclusão de Fluxo de Bonificação</categoryId>
+    <managerEngineAllocationId>Papel</managerEngineAllocationId>
+    <managerEngineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;gerentemarketing&lt;/Role&gt;&lt;/AssignmentController&gt;</managerEngineAllocationConfiguration>
+    <snapshotFrequency>0</snapshotFrequency>
+    <baseDay>0</baseDay>
+    <baseMonth>0</baseMonth>
+    <periodId>Default</periodId>
+    <uniqueCardVersion>false</uniqueCardVersion>
+    <keyWord></keyWord>
+    <complementsLevel>2</complementsLevel>
+    <notifyRequisitionerComplements>true</notifyRequisitionerComplements>
+    <notifyManagerComplements>false</notifyManagerComplements>
+    <deadlineTime>0</deadlineTime>
+    <warningDeadlineTime>0</warningDeadlineTime>
+    <notifyAuthorityComplements>true</notifyAuthorityComplements>
+  </ProcessDefinition>
+  <ProcessDefinitionVersion>
+    <processDefinitionVersionPK>
+      <companyId>1</companyId>
+      <processId>Inclusão de Fluxo Bonificação</processId>
+      <version>73</version>
+    </processDefinitionVersionPK>
+    <versionDescription></versionDescription>
+    <formId>48</formId>
+    <editionMode>true</editionMode>
+    <updateAttachmentsVersion>false</updateAttachmentsVersion>
+    <controlsAttachmentsSecurity>false</controlsAttachmentsSecurity>
+    <active>true</active>
+    <blockedVersion>false</blockedVersion>
+    <counterSign>false</counterSign>
+    <openInstances>0</openInstances>
+    <bpmnVersion>2</bpmnVersion>
+    <processStates/>
+    <favorito>false</favorito>
+    <inheritFormSecurity>false</inheritFormSecurity>
+    <mobileReady>true</mobileReady>
+  </ProcessDefinitionVersion>
+  <list>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </processStatePK>
+      <stateName>Início</stateName>
+      <stateDescription>Início</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;represetante&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>true</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>90</positionX>
+      <positionY>30</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>10</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>9</sequence>
+      </processStatePK>
+      <stateName>Aprovação Gerente MKT</stateName>
+      <stateDescription>Aprovação Gerente MKT</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>resp_marketing</engineAllocationId>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>330</positionX>
+      <positionY>488</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>10</sequence>
+      </processStatePK>
+      <stateName>Aprovação Gerente Regional</stateName>
+      <stateDescription>Aprovação Gerente Regional</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>resp_regional_repres</engineAllocationId>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>210</positionX>
+      <positionY>350</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>12</sequence>
+      </processStatePK>
+      <stateName>Revisão Representante</stateName>
+      <stateDescription>Revisão Representante</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;4&lt;/BaseActivity&gt;&lt;Returns&gt;Last&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>430</positionX>
+      <positionY>360</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>22</sequence>
+      </processStatePK>
+      <stateName>Integra  Pedido Logix</stateName>
+      <stateDescription>Integra  Pedido Logix</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>580</positionX>
+      <positionY>201</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>82</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>1</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>23</sequence>
+      </processStatePK>
+      <stateName>Solicitação Pagamento</stateName>
+      <stateDescription>Solicitação Pagamento</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1150</positionX>
+      <positionY>201</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>82</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>1</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>38</sequence>
+      </processStatePK>
+      <stateName>Recupera Aprovador</stateName>
+      <stateDescription>Recupera Aprovador</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>190</positionX>
+      <positionY>70</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>82</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>1</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>41</sequence>
+      </processStatePK>
+      <stateName>Trata Erro</stateName>
+      <stateDescription>Trata Erro</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>360</positionX>
+      <positionY>20</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>45</sequence>
+      </processStatePK>
+      <stateName>Erro de Integração</stateName>
+      <stateDescription>Erro de Integração</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>resp_marketing</engineAllocationId>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>680</positionX>
+      <positionY>480</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>53</sequence>
+      </processStatePK>
+      <stateName>Gera Cópia do Pedido</stateName>
+      <stateDescription>Gera Cópia do Pedido</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>false</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>0</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1490</positionX>
+      <positionY>200</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>82</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>1</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>57</sequence>
+      </processStatePK>
+      <stateName>Erro Geração da Cópia de Pedidos</stateName>
+      <stateDescription>Erro Geração da Cópia de Pedidos</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>resp_marketing</engineAllocationId>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1534</positionX>
+      <positionY>482</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>32</sequence>
+      </processStatePK>
+      <stateName>Intermediário</stateName>
+      <stateDescription>Intermediário</stateDescription>
+      <instruction>Evento intermediário do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>1</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1160</positionX>
+      <positionY>271</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>43</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <parentSequence>23</parentSequence>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>34</sequence>
+      </processStatePK>
+      <stateName>Intermediário</stateName>
+      <stateDescription>Intermediário</stateDescription>
+      <instruction>Evento intermediário do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>1</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>580</positionX>
+      <positionY>261</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>43</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <parentSequence>22</parentSequence>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>40</sequence>
+      </processStatePK>
+      <stateName>Intermediário</stateName>
+      <stateDescription>Intermediário</stateDescription>
+      <instruction>Evento intermediário do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>1</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>270</positionX>
+      <positionY>63</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>43</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <parentSequence>38</parentSequence>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>56</sequence>
+      </processStatePK>
+      <stateName>Intermediário</stateName>
+      <stateDescription>Intermediário</stateDescription>
+      <instruction>Evento intermediário do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>1</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1490</positionX>
+      <positionY>250</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>43</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <parentSequence>53</parentSequence>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>7</sequence>
+      </processStatePK>
+      <stateName>Aprov. Gerente Regional?</stateName>
+      <stateDescription>Aprov. Gerente Regional?</stateDescription>
+      <joint>false</joint>
+      <initialState>false</initialState>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <automatic>true</automatic>
+      <positionX>70</positionX>
+      <positionY>184</positionY>
+      <inhibitTransfer>false</inhibitTransfer>
+      <stateType>1</stateType>
+      <bpmnType>120</bpmnType>
+      <signalId>0</signalId>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>20</sequence>
+      </processStatePK>
+      <stateName>Modo de Pagamento</stateName>
+      <stateDescription>Modo de Pagamento</stateDescription>
+      <joint>false</joint>
+      <initialState>false</initialState>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <automatic>true</automatic>
+      <positionX>900</positionX>
+      <positionY>180</positionY>
+      <inhibitTransfer>false</inhibitTransfer>
+      <stateType>1</stateType>
+      <bpmnType>120</bpmnType>
+      <signalId>0</signalId>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>5</sequence>
+      </processStatePK>
+      <stateName>Fim</stateName>
+      <stateDescription>Fim</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1390</positionX>
+      <positionY>170</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>16</sequence>
+      </processStatePK>
+      <stateName>Fim com cancelamento de processo</stateName>
+      <stateDescription>Fim com cancelamento de processo</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1430</positionX>
+      <positionY>73</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>65</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+  </list>
+  <list>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <expressionOrder>1</expressionOrder>
+        <version>73</version>
+        <sequence>7</sequence>
+      </conditionProcessStatePK>
+      <condition>( hAPI.getCardValue(&apos;optionsRadios&apos;) == &apos;option2&apos;)</condition>
+      <destinationSequenceId>10</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <expressionOrder>2</expressionOrder>
+        <version>73</version>
+        <sequence>7</sequence>
+      </conditionProcessStatePK>
+      <condition>(hAPI.getCardValue(&apos;aprova_regional&apos;)==&apos;S&apos;)</condition>
+      <destinationSequenceId>10</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <expressionOrder>3</expressionOrder>
+        <version>73</version>
+        <sequence>7</sequence>
+      </conditionProcessStatePK>
+      <condition>true</condition>
+      <destinationSequenceId>9</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <expressionOrder>1</expressionOrder>
+        <version>73</version>
+        <sequence>20</sequence>
+      </conditionProcessStatePK>
+      <condition>( hAPI.getCardValue(&apos;optionsRadios&apos;) == &apos;option2&apos;)</condition>
+      <destinationSequenceId>23</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <expressionOrder>2</expressionOrder>
+        <version>73</version>
+        <sequence>20</sequence>
+      </conditionProcessStatePK>
+      <condition>true</condition>
+      <destinationSequenceId>22</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+  </list>
+  <list>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>13</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>10</initialStateSequence>
+      <finalStateSequence>12</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>14</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>10</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>15</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>12</initialStateSequence>
+      <finalStateSequence>7</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>17</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>12</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>18</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>9</initialStateSequence>
+      <finalStateSequence>12</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>19</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>7</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name>Não</name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>21</linkSequence>
+      </processLinkPK>
+      <actionLabel>Enviar para Integração</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>9</initialStateSequence>
+      <finalStateSequence>20</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>24</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>20</initialStateSequence>
+      <finalStateSequence>23</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>25</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>20</initialStateSequence>
+      <finalStateSequence>22</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>33</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>32</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>36</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>23</initialStateSequence>
+      <finalStateSequence>5</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>37</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>7</initialStateSequence>
+      <finalStateSequence>10</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name>Sim</name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>42</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>40</initialStateSequence>
+      <finalStateSequence>41</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>43</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>41</initialStateSequence>
+      <finalStateSequence>38</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>44</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>38</initialStateSequence>
+      <finalStateSequence>7</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>47</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>45</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>48</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>45</initialStateSequence>
+      <finalStateSequence>22</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>49</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>34</initialStateSequence>
+      <finalStateSequence>45</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>51</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>9</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>52</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>4</initialStateSequence>
+      <finalStateSequence>38</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>54</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>22</initialStateSequence>
+      <finalStateSequence>53</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>55</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>53</initialStateSequence>
+      <finalStateSequence>5</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>58</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>56</initialStateSequence>
+      <finalStateSequence>57</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>59</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>57</initialStateSequence>
+      <finalStateSequence>53</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <linkSequence>60</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>57</initialStateSequence>
+      <finalStateSequence>5</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+  </list>
+  <list/>
+  <list>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>servicetask38</eventId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function servicetask38(attempt, message) {
+
+	var camposItem = hAPI.getCardData(getValue(&quot;WKNumProces&quot;));
+	var contadorItem = camposItem.keySet().iterator();
+
+	log.info(&apos;beforeTaskSave -- Antes While. &apos; + camposItem);
+
+	var cont = 0;
+	while (contadorItem.hasNext()) {
+
+		cont += 1;
+
+		var idItem = contadorItem.next();
+		var campo = idItem.split(&apos;___&apos;)[0];
+		var seqItem = idItem.split(&apos;___&apos;)[1];
+
+		if (seqItem != undefined &amp;&amp; campo == &quot;COD_ITEM&quot;) {
+
+			var cod_empresa = hAPI.getCardValue(&quot;empresa&quot;) + &quot;&quot;;
+			var cod_local = hAPI.getCardValue(&quot;cod_local___&quot; + seqItem) + &quot;&quot;;
+			var nat_operacao = hAPI.getCardValue(&quot;nat_operacao&quot;) + &quot;&quot;;
+
+			log.info(&apos;jero1...&apos; + hAPI.getCardValue(&quot;optionsRadios&quot;));
+
+			log.info(&apos;COD EMPRESA.. &apos; + cod_empresa);
+			log.info(&apos;COD LOCAL.... &apos; + cod_local);
+			log.info(&apos;NAT OPERACAO. &apos; + nat_operacao);
+
+			var cons = new Array();
+			log.info(&apos;beforeTaskSave -- Antes Pai Filho....&apos;);
+			cons.push(DatasetFactory.createConstraint(&apos;dataSet&apos;,
+					&apos;empresa_compl&apos;, &apos;empresa_compl&apos;, ConstraintType.MUST));
+			cons.push(DatasetFactory.createConstraint(&apos;table&apos;,
+					&apos;locais_estoque_mkt&apos;, &apos;locais_estoque_mkt&apos;,
+					ConstraintType.MUST));
+			cons.push(DatasetFactory.createConstraint(&apos;pai_cod_empresa&apos;,
+					cod_empresa, cod_empresa, ConstraintType.MUST));
+			cons.push(DatasetFactory.createConstraint(&apos;filho_cod_local&apos;,
+					cod_local, cod_local, ConstraintType.MUST));
+			cons.push(DatasetFactory.createConstraint(&apos;filho_cod_nat_oper_loc&apos;,
+					nat_operacao, nat_operacao, ConstraintType.MUST));
+			log.info(&apos;beforeTaskSave -- cons...&apos; + cons);
+
+			var dataset = DatasetFactory.getDataset(&apos;paiFilho&apos;, null, cons,
+					null);
+
+			if (dataset != null) {
+				log.info(&apos;beforeTaskSave -- tamanho do dataset...&apos;
+						+ dataset.values.length);
+				if (dataset.values.length &gt; 0) {
+					for (var x = 0; x &lt; dataset.values.length; x++) {
+						log.info(&apos;for data set..... &apos; + x);
+
+						var existe = dataset.getValue(x,
+								&apos;ies_local_nat_oper_aprov&apos;);
+						log.info(&apos;beforeTaskSave -- existe...&apos; + existe);
+						if (existe == &apos;on&apos;) {
+							var testea1 = hAPI.getCardValue(&quot;aprova_regional&quot;)
+									+ &quot;&quot;;
+							log.info(&apos;testea1&apos; + testea1);
+
+							hAPI.setCardValue(&quot;aprova_regional&quot;, &apos;S&apos;);
+
+							var testea2 = hAPI.getCardValue(&quot;aprova_regional&quot;)
+									+ &quot;&quot;;
+							log.info(&apos;testea2&apos; + testea2);
+							break;
+						}
+
+					}
+				} else {
+					var cons1 = new Array();
+					log.info(&apos;beforeTaskSave -- Antes Pai Filho....2&apos;);
+					cons1.push(DatasetFactory.createConstraint(&apos;dataSet&apos;,
+							&apos;empresa_compl&apos;, &apos;empresa_compl&apos;,
+							ConstraintType.MUST));
+					cons1.push(DatasetFactory.createConstraint(&apos;table&apos;,
+							&apos;locais_estoque_mkt&apos;, &apos;locais_estoque_mkt&apos;,
+							ConstraintType.MUST));
+					cons1.push(DatasetFactory.createConstraint(
+							&apos;pai_cod_empresa&apos;, cod_empresa, cod_empresa,
+							ConstraintType.MUST));
+					cons1.push(DatasetFactory.createConstraint(
+							&apos;filho_cod_local&apos;, cod_local, cod_local,
+							ConstraintType.MUST));
+					log.info(cons1);
+
+					var dataset1 = DatasetFactory.getDataset(&apos;paiFilho&apos;, null,
+							cons1, null);
+
+					if (dataset1 != null) {
+						for (var x = 0; x &lt; dataset1.values.length; x++) {
+							log
+									.info(&apos;beforeTaskSave -- for data set..... &apos;
+											+ x);
+
+							var existe1 = dataset1.getValue(x,
+									&apos;ies_local_nat_oper_aprov&apos;);
+							log.info(&apos;beforeTaskSave -- existe1...&apos; + existe1);
+
+							if (existe1 == &apos;on&apos;) {
+								var testeb1 = hAPI
+										.getCardValue(&quot;aprova_regional&quot;)
+										+ &quot;&quot;;
+								log.info(&apos;beforeTaskSave -- testeb1&apos; + testeb1);
+
+								hAPI.setCardValue(&quot;aprova_regional&quot;, &apos;S&apos;);
+
+								var testeb2 = hAPI
+										.getCardValue(&quot;aprova_regional&quot;)
+										+ &quot;&quot;;
+								log.info(&apos;beforeTaskSave -- testeb2&apos; + testeb2);
+								break;
+							}
+						}
+					}
+				}
+			}
+			log.info(&apos;beforeTaskSave -- Antes de sair com break...&apos;
+					+ hAPI.getCardValue(&quot;aprova_regional&quot;));
+			if (hAPI.getCardValue(&quot;aprova_regional&quot;) == &apos;S&apos;) {
+				log.info(&apos;beforeTaskSave -- saiu com break...&apos;
+						+ hAPI.getCardValue(&quot;aprova_regional&quot;));
+				break;
+			}
+		}
+	}
+
+	log.info(&apos;Ultimo teste saida atividade...&apos; + getValue(&quot;WKNumProces&quot;)
+			+ &quot; - &quot; + hAPI.getCardValue(&quot;aprova_regional&quot;));
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeTaskSave</eventId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function beforeTaskSave(colleagueId,nextSequenceId,userList){&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>servicetask22</eventId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function servicetask22(attempt, message) {&#xd;
+&#xd;
+	log.info(&apos;ENTROU NA FUNCAO DE INCLUSAO DO PEDIDO...&apos;);&#xd;
+&#xd;
+	var codEmpresa = getValueForm(&quot;empresa&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+	var natOperacao = getValueForm(&quot;nat_operacao&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+	var qtdVezes = getValueForm(&quot;qtdVezes&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+	var numProcesso;&#xd;
+	var userId;&#xd;
+&#xd;
+&#xd;
+	var clientService = fluigAPI.getAuthorizeClientService();&#xd;
+	numProcesso = getValue(&apos;WKNumProces&apos;);&#xd;
+	userId = getValue(&quot;WKUser&quot;);&#xd;
+&#xd;
+	for (var parcAtual = 1; parcAtual &lt;= qtdVezes; parcAtual++) {&#xd;
+		try {&#xd;
+			log.info(&apos;###Passou vez&apos; + parcAtual);&#xd;
+&#xd;
+			var data = {&#xd;
+				companyId : getValue(&quot;WKCompany&quot;) + &quot;&quot;,&#xd;
+				serviceCode : &quot;Logix_PRD&quot;,&#xd;
+				endpoint : &quot;/logixrest/vdpr0001/incluiPedidoVenda&quot;,&#xd;
+				method : &quot;post&quot; // &quot;post&quot;, &quot;delete&quot;, &quot;patch&quot;, &quot;put&quot;, &quot;get&quot;&#xd;
+			};&#xd;
+			&#xd;
+			log.info(&quot;## RESULT POST 23 ## &quot;);&#xd;
+			log.info(&quot;## DADOS CABECALHO ##&quot;);&#xd;
+			var headers = {};&#xd;
+			headers[&quot;Content-Type&quot;] = &quot;application/json;charset=UTF-8&quot;;&#xd;
+			data[&quot;headers&quot;] = headers;&#xd;
+			log.info(&quot;dados header&quot; + headers);&#xd;
+			log.info(&quot;## PASSOU DADOS CABECALHO ##&quot;);&#xd;
+			&#xd;
+			var options = {};&#xd;
+			options[&quot;encoding&quot;] = &quot;UTF-8&quot;;&#xd;
+			options[&quot;mediaType&quot;] = &quot;application/json&quot;;&#xd;
+			&#xd;
+			// }&#xd;
+			data[&quot;options&quot;] = options;&#xd;
+&#xd;
+			var params = {};&#xd;
+&#xd;
+			var lr_parametros = {};&#xd;
+			lr_parametros[&quot;consistir_pedido&quot;] = &quot;S&quot;;&#xd;
+			params[&quot;lr_parametros&quot;] = lr_parametros;&#xd;
+&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+			log.info(&apos;PARAMETROS lr_parametros###&apos;);&#xd;
+			log.info(&apos;consistir_pedido&apos; + lr_parametros[&quot;consistir_pedido&quot;]);&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+&#xd;
+			var lr_principal = {};&#xd;
+			lr_principal[&quot;cod_empresa&quot;] = codEmpresa + &quot;&quot;;&#xd;
+			lr_principal[&quot;num_pedido&quot;] = &quot;0&quot;;&#xd;
+			lr_principal[&quot;cod_cliente&quot;] = getValueForm(&quot;cod_cliente&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+			lr_principal[&quot;dat_emis_repres&quot;] = getValueForm(&quot;data_emissao&quot;, &quot;&quot;)&#xd;
+					.split(&quot;/&quot;).reverse().join(&quot;-&quot;);&#xd;
+			lr_principal[&quot;cod_nat_oper&quot;] = natOperacao + &quot;&quot;;&#xd;
+&#xd;
+			// 1- Se a&#xd;
+			// InscriÃ&#x83;Â&#x83;Ã&#x82;Â&#x83;Ã&#x83;Â&#x82;Ã&#x82;Â&#x83;Ã&#x83;Â&#x83;Ã&#x82;Â&#x82;Ã&#x83;Â&#x82;Ã&#x82;Â§Ã&#x83;Â&#x83;Ã&#x82;Â&#x83;Ã&#x83;Â&#x82;Ã&#x82;Â&#x83;Ã&#x83;Â&#x83;Ã&#x82;Â&#x82;Ã&#x83;Â&#x82;Ã&#x82;Â£o&#xd;
+			// Estadual estiver em &quot;BRANCO&quot; ou com a&#xd;
+			// palavra &quot;ISENTO&quot; o campo Finalidade deverÃ&#x83;Â&#x83;Ã&#x82;Â&#x83;Ã&#x83;Â&#x82;Ã&#x82;Â&#x83;Ã&#x83;Â&#x83;Ã&#x82;Â&#x82;Ã&#x83;Â&#x82;Ã&#x82;Â¡&#xd;
+			// ser = 2&quot;.&#xd;
+			// 2- Se a IE estiver com numeros o campo finalidade&#xd;
+			// deverÃ&#x83;Â&#x83;Ã&#x82;Â&#x83;Ã&#x83;Â&#x82;Ã&#x82;Â&#x83;Ã&#x83;Â&#x83;Ã&#x82;Â&#x82;Ã&#x83;Â&#x82;Ã&#x82;Â¡ ser =&#xd;
+			// &quot;1&quot;.&#xd;
+			// 3- Se a IE estiver com nÃ&#x83;Â&#x83;Ã&#x82;Â&#x83;Ã&#x83;Â&#x82;Ã&#x82;Â&#x83;Ã&#x83;Â&#x83;Ã&#x82;Â&#x82;Ã&#x83;Â&#x82;Ã&#x82;Âºmeros e o campo&#xd;
+			// Classe estiver&#xd;
+			// preenchida com &quot;U&quot;&#xd;
+			// o campo Finalidade deverÃ&#x83;Â&#x83;Ã&#x82;Â&#x83;Ã&#x83;Â&#x82;Ã&#x82;Â&#x83;Ã&#x83;Â&#x83;Ã&#x82;Â&#x82;Ã&#x83;Â&#x82;Ã&#x82;Â¡ ser = &quot;3&quot;.&#xd;
+			// também se o tipo de fornecedor no vdp10000 estiver como microempresa&#xd;
+			// individual e estiver isento ou vazio&#xd;
+			// será gravado como finalidade 3&#xd;
+			// 4 - se tiver inscricao estadual, estivo como U na classe, porém nos parametros do VDP10000&#xd;
+			// GERAL estiver como não contribuinte irá gravar 2&#xd;
+			// 5 - Se não tiver inscricao estadual, porém o campo eh contribuinte da aba 2 dos parametros&#xd;
+			// do vdp10000 estiver como eh_contribuinte e a classe não for U o campo finalidade irá receber 1&#xd;
+&#xd;
+			if (getValueForm(&quot;ins_estadual&quot;, &quot;&quot;) == &quot;&quot;&#xd;
+					|| getValueForm(&quot;ins_estadual&quot;, &quot;&quot;) == null&#xd;
+					|| getValueForm(&quot;ins_estadual&quot;, &quot;&quot;) == undefined) {&#xd;
+				var c1 = DatasetFactory.createConstraint(&quot;cod_cliente&quot;, cod_cliente,&#xd;
+						cod_cliente, ConstraintType.MUST);&#xd;
+				var constraints = new Array(c1);&#xd;
+				var dataset = DatasetFactory.getDataset(&apos;cliente_rest&apos;, null,&#xd;
+						constraints, null);&#xd;
+				var informa_aen_pedido = &quot;N&quot;;&#xd;
+				if (dataset != null) {&#xd;
+					// log.info(&apos;DATA SET...&apos;+dataset );&#xd;
+					hAPI.setCardValue(&quot;ins_estadual&quot;, dataset.getValue(0,&#xd;
+							&quot;ins_estadual&quot;));&#xd;
+				}&#xd;
+			}&#xd;
+&#xd;
+			var insEstadual = getValueForm(&quot;ins_estadual&quot;, &quot;&quot;).replace(&quot;[^0-9]&quot;, &quot;&quot;)&#xd;
+					.trim();&#xd;
+			var iesTipFornec = getValueForm(&quot;ies_tip_fornec&quot;, &quot;&quot;).trim();&#xd;
+			log.info(&quot;## INSCRICAO ## &quot; + insEstadual);&#xd;
+			log.info(&quot;## COD_CLASS ## &quot; + getValueForm(&quot;cod_class&quot;, &quot;A&quot;));&#xd;
+			var finalidade = &quot;1&quot;;&#xd;
+			log.info(&quot;## FINALIDADE ## 0001&quot;);&#xd;
+			if (iesTipFornec == &quot;I&quot;&#xd;
+					&amp;&amp; (insEstadual == &quot;&quot; || insEstadual == null || insEstadual == &quot;ISENTO&quot;)) {&#xd;
+				finalidade = &quot;3&quot;;&#xd;
+				log.info(&quot;## FINALIDADE ## 0004&quot;);&#xd;
+			} else if ((getValueForm(&quot;cod_class&quot;, &quot;A&quot;) != &quot;U&quot; || getValueForm(&quot;cod_class&quot;, &quot;A&quot;) != &quot;u&quot;) &#xd;
+						&amp;&amp; (insEstadual == &quot;&quot; || insEstadual == null || insEstadual == &quot;ISENTO&quot;)  &#xd;
+						&amp;&amp; ((getValueForm(&quot;eh_contribuinte&quot;, &quot;A&quot;)) == &apos;S&apos;)){&#xd;
+								finalidade = &quot;1&quot;;&#xd;
+								log.info(&quot;## FINALIDADE ## 0005&quot;);&#xd;
+			} else if (insEstadual == &quot;&quot; || insEstadual == null&#xd;
+					|| insEstadual == &quot;ISENTO&quot;) {&#xd;
+				finalidade = &quot;2&quot;;&#xd;
+				log.info(&quot;## FINALIDADE ## 0002&quot;);&#xd;
+			} else if ((getValueForm(&quot;cod_class&quot;, &quot;A&quot;)) == &quot;U&quot; &amp;&amp; insEstadual != &quot;&quot; &amp;&amp; insEstadual != null &amp;&amp; insEstadual != &quot;ISENTO&quot; &amp;&amp; (getValueForm(&quot;eh_contribuinte&quot;, &quot;A&quot;)) == &apos;N&apos;){&#xd;
+					finalidade = &apos;2&apos;;&#xd;
+					log.info(&apos;## FINALIDADE ## 0004&apos;);&#xd;
+			} else if ((getValueForm(&quot;cod_class&quot;, &quot;A&quot;) == &quot;U&quot; || getValueForm(&#xd;
+					&quot;cod_class&quot;, &quot;A&quot;) == &quot;u&quot;)&#xd;
+					&amp;&amp; (insEstadual != &quot;&quot; || insEstadual != null || insEstadual != &quot;ISENTO&quot;)) {&#xd;
+				finalidade = &quot;3&quot;;&#xd;
+				log.info(&quot;## FINALIDADE ## 0003&quot;);&#xd;
+			} &#xd;
+				&#xd;
+			 &#xd;
+			&#xd;
+&#xd;
+			log.info(&quot;## FIANALIDADE ## &quot; + finalidade);&#xd;
+&#xd;
+			lr_principal[&quot;ies_finalidade&quot;] = finalidade + &quot;&quot;;&#xd;
+&#xd;
+			log.info(&apos;BUSCA DATASET NATUREZA OPERACAO...&apos;);&#xd;
+			var cons = new Array();&#xd;
+			log.info(&apos;Antes Pai Filho....&apos;);&#xd;
+			cons.push(DatasetFactory.createConstraint(&apos;dataSet&apos;,&#xd;
+					&apos;empresa_compl&apos;, &apos;empresa_compl&apos;, ConstraintType.MUST));&#xd;
+			cons.push(DatasetFactory.createConstraint(&apos;table&apos;, &apos;nat_oper&apos;,&#xd;
+					&apos;nat_oper&apos;, ConstraintType.MUST));&#xd;
+			cons.push(DatasetFactory.createConstraint(&apos;pai_cod_empresa&apos;,&#xd;
+					codEmpresa, codEmpresa, ConstraintType.MUST));&#xd;
+			cons.push(DatasetFactory.createConstraint(&apos;filho_cod_nat_oper&apos;,&#xd;
+					natOperacao, natOperacao, ConstraintType.MUST));&#xd;
+			log.info(cons);&#xd;
+&#xd;
+			var dataset = DatasetFactory.getDataset(&apos;paiFilho&apos;, null, cons,&#xd;
+					null);&#xd;
+			if (dataset != null) {&#xd;
+				lr_principal[&quot;cod_cnd_pgto&quot;] = dataset.getValue(0,&#xd;
+						&apos;cod_cond_pagto&apos;)&#xd;
+						+ &quot;&quot;;&#xd;
+				lr_principal[&quot;ies_tip_entrega&quot;] = dataset.getValue(0,&#xd;
+						&apos;tipo_entrega&apos;)&#xd;
+						+ &quot;&quot;;&#xd;
+				lr_principal[&quot;cod_tip_venda&quot;] = dataset.getValue(0,&#xd;
+						&apos;tipo_venda&apos;)&#xd;
+						+ &quot;&quot;;&#xd;
+				lr_principal[&quot;cod_tip_carteira&quot;] = dataset.getValue(0,&#xd;
+						&apos;carteiraNat&apos;)&#xd;
+						+ &quot;&quot;;&#xd;
+			} else {&#xd;
+				log.info(&apos;NULO RESULT DATASET NATUREZA OPERACAO&apos;);&#xd;
+			}&#xd;
+&#xd;
+			params[&quot;lr_principal&quot;] = lr_principal;&#xd;
+&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+			log.info(&apos;PARAMETROS lr_principal###&apos;);&#xd;
+			log.info(&apos;cod_empresa:&apos; + lr_principal[&quot;cod_empresa&quot;]);&#xd;
+			log.info(&apos;num_pedido:&apos; + lr_principal[&quot;num_pedido&quot;]);&#xd;
+			log.info(&apos;cod_cliente:&apos; + lr_principal[&quot;cod_cliente&quot;]);&#xd;
+			log.info(&apos;dat_emis_repres:&apos; + lr_principal[&quot;dat_emis_repres&quot;]);&#xd;
+			log.info(&apos;cod_nat_oper:&apos; + lr_principal[&quot;cod_nat_oper&quot;]);&#xd;
+			log.info(&apos;ies_finalidade:&apos; + lr_principal[&quot;ies_finalidade&quot;]);&#xd;
+			log.info(&apos;RESULT DATASET NATUREZA OPERACAO...:&apos;&#xd;
+					+ dataset.values.length);&#xd;
+			log.info(&apos;cod_cnd_pgto:&apos; + lr_principal[&quot;cod_cnd_pgto&quot;]);&#xd;
+			log.info(&apos;ies_tip_entrega:&apos; + lr_principal[&quot;ies_tip_entrega&quot;]);&#xd;
+			log.info(&apos;cod_tip_venda:&apos; + lr_principal[&quot;cod_tip_venda&quot;]);&#xd;
+			log.info(&apos;cod_tip_carteira:&apos; + lr_principal[&quot;cod_tip_carteira&quot;]);&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+&#xd;
+			var lr_representante = {};&#xd;
+&#xd;
+			// validar se comissao estão ou nao marcado. teste&#xd;
+&#xd;
+			var ies_comissao = dataset.getValue(0, &apos;ies_comissao&apos;) + &quot;&quot;;&#xd;
+			if (ies_comissao == &apos;on&apos;) {&#xd;
+				lr_representante[&quot;ies_comissao&quot;] = &apos;S&apos;;&#xd;
+			} else {&#xd;
+				lr_representante[&quot;ies_comissao&quot;] = &apos;N&apos;;&#xd;
+			}&#xd;
+&#xd;
+			var perc_comissao = dataset.getValue(0, &apos;perc_comissao&apos;) + &quot;&quot;;&#xd;
+&#xd;
+			if (perc_comissao != &apos;&apos; &amp;&amp; perc_comissao != undefined&#xd;
+					&amp;&amp; perc_comissao != null) {&#xd;
+				lr_representante[&quot;pct_comissao&quot;] = perc_comissao;&#xd;
+			} else {&#xd;
+				lr_representante[&quot;pct_comissao&quot;] = 0;&#xd;
+			}&#xd;
+&#xd;
+			lr_representante[&quot;cod_repres&quot;] = getValueForm(&quot;cod_repres&quot;, &quot;0&quot;)&#xd;
+					+ &quot;&quot;;&#xd;
+			// lr_representante[&quot;pct_comissao&quot;] = &quot;0&quot;;&#xd;
+			lr_representante[&quot;cod_repres_adic&quot;] = &quot;&quot;;&#xd;
+			lr_representante[&quot;pct_comissao_2&quot;] = &quot;0&quot;;&#xd;
+			lr_representante[&quot;cod_repres_3&quot;] = &quot;&quot;;&#xd;
+			lr_representante[&quot;pct_comissao_3&quot;] = &quot;0&quot;;&#xd;
+&#xd;
+			params[&quot;lr_representante&quot;] = lr_representante;&#xd;
+&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+			log.info(&apos;PARAMETROS lr_representante###&apos;);&#xd;
+			log.info(&apos;ies_comissao:&apos; + lr_representante[&quot;ies_comissao&quot;]);&#xd;
+			log.info(&apos;cod_repres:&apos; + lr_representante[&quot;cod_repres&quot;]);&#xd;
+			log.info(&apos;pct_comissao:&apos; + lr_representante[&quot;pct_comissao&quot;]);&#xd;
+			log.info(&apos;cod_repres_adic:&apos; + lr_representante[&quot;cod_repres_adic&quot;]);&#xd;
+			log.info(&apos;pct_comissao_2:&apos; + lr_representante[&quot;pct_comissao_2&quot;]);&#xd;
+			log.info(&apos;cod_repres_3:&apos; + lr_representante[&quot;cod_repres_3&quot;]);&#xd;
+			log.info(&apos;pct_comissao_3:&apos; + lr_representante[&quot;pct_comissao_3&quot;]);&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+&#xd;
+			var lr_adicionais = {};&#xd;
+			lr_adicionais[&quot;num_pedido_repres&quot;] = getValue(&quot;WKNumProces&quot;) + &quot;&quot;;&#xd;
+			lr_adicionais[&quot;num_pedido_cli&quot;] = &quot;&quot;;&#xd;
+			lr_adicionais[&quot;cod_local_estoq&quot;] = &quot;&quot;;&#xd;
+			lr_adicionais[&quot;pedido_pallet&quot;] = &quot;N&quot;;&#xd;
+			lr_adicionais[&quot;pct_tolera_minima&quot;] = &quot;0&quot;;&#xd;
+			lr_adicionais[&quot;pct_tolera_maxima&quot;] = &quot;0&quot;;&#xd;
+			lr_adicionais[&quot;dat_min_fat&quot;] = &quot;&quot;;&#xd;
+			lr_adicionais[&quot;nota_empenho&quot;] = &quot;&quot;;&#xd;
+			lr_adicionais[&quot;contrato_compra&quot;] = &quot;&quot;;&#xd;
+			lr_adicionais[&quot;forma_pagto&quot;] = &quot;&quot;;&#xd;
+			lr_adicionais[&quot;processo_export&quot;] = &quot;&quot;;&#xd;
+			lr_adicionais[&quot;numero_cno_esocial&quot;] = &quot;&quot;;&#xd;
+			lr_adicionais[&quot;cnpj_cpf_subempreiteiro&quot;] = &quot;&quot;;&#xd;
+&#xd;
+			params[&quot;lr_adicionais&quot;] = lr_adicionais;&#xd;
+&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+			log.info(&apos;PARAMETROS lr_adicionais###&apos;);&#xd;
+			log.info(&apos;num_pedido_repres:&apos; + lr_adicionais[&quot;num_pedido_repres&quot;]);&#xd;
+			log.info(&apos;num_pedido_cli:&apos; + lr_adicionais[&quot;num_pedido_cli&quot;]);&#xd;
+			log.info(&apos;cod_local_estoq:&apos; + lr_adicionais[&quot;cod_local_estoq&quot;]);&#xd;
+			log.info(&apos;pedido_pallet:&apos; + lr_adicionais[&quot;pedido_pallet&quot;]);&#xd;
+			log.info(&apos;pct_tolera_minima:&apos; + lr_adicionais[&quot;pct_tolera_minima&quot;]);&#xd;
+			log.info(&apos;pct_tolera_maxima:&apos; + lr_adicionais[&quot;pct_tolera_maxima&quot;]);&#xd;
+			log.info(&apos;dat_min_fat:&apos; + lr_adicionais[&quot;dat_min_fat&quot;]);&#xd;
+			log.info(&apos;nota_empenho:&apos; + lr_adicionais[&quot;nota_empenho&quot;]);&#xd;
+			log.info(&apos;contrato_compra:&apos; + lr_adicionais[&quot;contrato_compra&quot;]);&#xd;
+			log.info(&apos;forma_pagto:&apos; + lr_adicionais[&quot;forma_pagto&quot;]);&#xd;
+			log.info(&apos;processo_export:&apos; + lr_adicionais[&quot;processo_export&quot;]);&#xd;
+			log.info(&apos;numero_cno_esocial:&apos;&#xd;
+					+ lr_adicionais[&quot;numero_cno_esocial&quot;]);&#xd;
+			log.info(&apos;cnpj_cpf_subempreiteiro:&apos;&#xd;
+					+ lr_adicionais[&quot;cnpj_cpf_subempreiteiro&quot;]);&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+&#xd;
+			var lr_frete = {};&#xd;
+&#xd;
+			if (dataset.getValue(0, &apos;tipo_frete&apos;) == &quot;RET&quot;) {&#xd;
+				lr_frete[&quot;cod_transpor&quot;] = getValueForm(&quot;cod_cliente&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+			} else {&#xd;
+				lr_frete[&quot;cod_transpor&quot;] = getValueForm(&quot;cod_transportadora&quot;,&#xd;
+						&quot;&quot;)&#xd;
+						+ &quot;&quot;;&#xd;
+			}&#xd;
+			lr_frete[&quot;cod_consig&quot;] = &quot;&quot;;&#xd;
+			if (getValueForm(&quot;tipo_frete&quot;) == &apos;CIF&apos;) {&#xd;
+				lr_frete[&quot;ies_frete&quot;] = &apos;1&apos;+&quot;&quot;;&#xd;
+			} else {&#xd;
+				lr_frete[&quot;ies_frete&quot;] = dataset.getValue(0, &apos;tipo_frete&apos;) + &quot;&quot;;&#xd;
+			}	&#xd;
+			lr_frete[&quot;ies_embal_padrao&quot;] = &quot;3&quot;;&#xd;
+			lr_frete[&quot;pct_frete&quot;] = 0 + &quot;&quot;;&#xd;
+&#xd;
+			params[&quot;lr_frete&quot;] = lr_frete;&#xd;
+&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+			log.info(&apos;PARAMETROS lr_frete###&apos;);&#xd;
+			log.info(&apos;cod_transpor:&apos; + lr_frete[&quot;cod_transpor&quot;]);&#xd;
+			log.info(&apos;cod_consig:&apos; + lr_frete[&quot;cod_consig&quot;]);&#xd;
+			log.info(&apos;ies_frete:&apos; + lr_frete[&quot;ies_frete&quot;]);&#xd;
+			log.info(&apos;ies_embal_padrao:&apos; + lr_frete[&quot;ies_embal_padrao&quot;]);&#xd;
+			log.info(&apos;pct_frete:&apos; + lr_frete[&quot;pct_frete&quot;]);&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+&#xd;
+			var lr_preco_desconto = {};&#xd;
+&#xd;
+			lr_preco_desconto[&quot;ies_preco&quot;] = &quot;F&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_financ&quot;] = 0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_adic&quot;] = 0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;num_list_preco&quot;] = getValueForm(&quot;lstPreco&quot;, &quot;&quot;)&#xd;
+					+ &quot;&quot;;&#xd;
+			&#xd;
+			if (getValueForm(&quot;cod_moeda_lista&quot;, &quot;&quot;)!=&apos;&apos; &amp;&amp; getValueForm(&quot;cod_moeda_lista&quot;, &quot;&quot;)!=null) {&#xd;
+				lr_preco_desconto[&quot;cod_moeda&quot;] = getValueForm(&quot;cod_moeda_lista&quot;, &quot;&quot;)+&quot;&quot;;&#xd;
+			} else {&#xd;
+				lr_preco_desconto[&quot;cod_moeda&quot;] = dataset.getValue(0, &apos;moeda&apos;) + &quot;&quot;;&#xd;
+			}&#xd;
+			lr_preco_desconto[&quot;tip_desc&quot;] = 6; // dataset.getValue(0,&apos;tipo_desconto&apos;)+&quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_1&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_2&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_3&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_4&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_5&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_6&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_7&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_8&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_9&quot;] = 0.0 + &quot;&quot;;&#xd;
+			lr_preco_desconto[&quot;pct_desc_10&quot;] = 0.0 + &quot;&quot;;&#xd;
+			&#xd;
+			var dataHora = new Date();&#xd;
+			var sdt = new java.text.SimpleDateFormat(&quot;dd/MM/yyyy&quot;);&#xd;
+			var dataAtual = sdt.format(dataHora);&#xd;
+			&#xd;
+			if( hAPI.getCardValue(&quot;cod_moeda_lista&quot;) != &quot;1&quot; &amp;&amp; hAPI.getCardValue(&quot;cod_moeda_lista&quot;) != &quot;&quot; &amp;&amp; hAPI.getCardValue(&quot;cod_moeda_lista&quot;) != null ){&#xd;
+				lr_preco_desconto[&quot;regra_cotacao&quot;] = &quot;F&quot;;&#xd;
+				lr_preco_desconto[&quot;val_cotacao_fixa&quot;] = parseFloat( hAPI.getCardValue(&quot;cotacao&quot;).replace(&apos;.&apos;,&apos;&apos;).replace(&apos;,&apos;,&apos;.&apos;) ) + &quot;&quot;;&#xd;
+				lr_preco_desconto[&quot;data_vigencia&quot;] = dataAtual.split(&quot;/&quot;).reverse().join(&quot;-&quot;);		&#xd;
+			} else {&#xd;
+				lr_preco_desconto[&quot;regra_cotacao&quot;] = &quot;P&quot;;&#xd;
+				lr_preco_desconto[&quot;val_cotacao_fixa&quot;] = &quot;&quot;;&#xd;
+				lr_preco_desconto[&quot;data_vigencia&quot;] = &quot;&quot;;&#xd;
+			}&#xd;
+&#xd;
+			params[&quot;lr_preco_desconto&quot;] = lr_preco_desconto;&#xd;
+&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+			log.info(&apos;PARAMETROS lr_preco_desconto###&apos;);&#xd;
+			log.info(&apos;ies_preco:&apos; + lr_preco_desconto[&quot;ies_preco&quot;]);&#xd;
+			log.info(&apos;pct_desc_financ:&apos; + lr_preco_desconto[&quot;pct_desc_financ&quot;]);&#xd;
+			log.info(&apos;pct_desc_adic:&apos; + lr_preco_desconto[&quot;pct_desc_adic&quot;]);&#xd;
+			log.info(&apos;num_list_preco:&apos; + lr_preco_desconto[&quot;num_list_preco&quot;]);&#xd;
+			log.info(&apos;cod_moeda:&apos; + getValueForm(&quot;cod_moeda_lista&quot;, &quot;&quot;)+&quot;&quot;);&#xd;
+			log.info(&apos;tip_desc:&apos; + lr_preco_desconto[&quot;tip_desc&quot;]);&#xd;
+			log.info(&apos;pct_desc_1:&apos; + lr_preco_desconto[&quot;pct_desc_1&quot;]);&#xd;
+			log.info(&apos;pct_desc_2:&apos; + lr_preco_desconto[&quot;pct_desc_2&quot;]);&#xd;
+			log.info(&apos;pct_desc_3:&apos; + lr_preco_desconto[&quot;pct_desc_3&quot;]);&#xd;
+			log.info(&apos;pct_desc_4:&apos; + lr_preco_desconto[&quot;pct_desc_4&quot;]);&#xd;
+			log.info(&apos;pct_desc_5:&apos; + lr_preco_desconto[&quot;pct_desc_5&quot;]);&#xd;
+			log.info(&apos;pct_desc_6:&apos; + lr_preco_desconto[&quot;pct_desc_6&quot;]);&#xd;
+			log.info(&apos;pct_desc_7:&apos; + lr_preco_desconto[&quot;pct_desc_7&quot;]);&#xd;
+			log.info(&apos;pct_desc_8:&apos; + lr_preco_desconto[&quot;pct_desc_8&quot;]);&#xd;
+			log.info(&apos;pct_desc_9:&apos; + lr_preco_desconto[&quot;pct_desc_9&quot;]);&#xd;
+			log.info(&apos;pct_desc_10:&apos; + lr_preco_desconto[&quot;pct_desc_10&quot;]);&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+&#xd;
+			var lr_entrega = {};&#xd;
+&#xd;
+			lr_entrega[&quot;num_sequencia&quot;] = &quot;&quot;;&#xd;
+&#xd;
+			if (getValueForm(&quot;endereco_ent&quot;, &quot;&quot;) != &quot;&quot;) {&#xd;
+				lr_entrega[&quot;end_entrega&quot;] = getValueForm(&quot;tipo_logradouro_ent&quot;,&#xd;
+						&quot;&quot;)&#xd;
+						+ &quot; &quot;&#xd;
+						+ getValueForm(&quot;endereco_ent&quot;, &quot;&quot;)&#xd;
+						+ &quot;, &quot;&#xd;
+						+ getValueForm(&quot;numero_ent&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+				lr_entrega[&quot;den_bairro&quot;] = getValueForm(&quot;bairro_ent&quot;,&#xd;
+						getValueForm(&quot;bairro_ent_sel&quot;, &quot;&quot;))&#xd;
+						+ &quot;&quot;;&#xd;
+				lr_entrega[&quot;cod_cidade&quot;] = getValueForm(&quot;cod_cidade_ent&quot;, &quot;&quot;)&#xd;
+						+ &quot;&quot;;&#xd;
+				lr_entrega[&quot;cod_cep&quot;] = getValueForm(&quot;cep_ent&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+				lr_entrega[&quot;num_cgc&quot;] = getValueForm(&quot;cnpj_ent&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+				lr_entrega[&quot;ins_estadual&quot;] = getValueForm(&quot;isento_ie_ent&quot;, &quot;&quot;)&#xd;
+						+ &quot;&quot;;&#xd;
+				lr_entrega[&quot;nom_cliente_end_ent&quot;] = getValueForm(&#xd;
+						&quot;razao_social&quot;, &quot;&quot;)&#xd;
+						+ &quot;&quot;;&#xd;
+			} else {&#xd;
+				lr_entrega[&quot;end_entrega&quot;] = &quot;&quot;;&#xd;
+				lr_entrega[&quot;den_bairro&quot;] = &quot;&quot;;&#xd;
+				lr_entrega[&quot;cod_cidade&quot;] = &quot;&quot;;&#xd;
+				lr_entrega[&quot;cod_cep&quot;] = &quot;&quot;;&#xd;
+				lr_entrega[&quot;num_cgc&quot;] = &quot;&quot;;&#xd;
+				lr_entrega[&quot;ins_estadual&quot;] = &quot;&quot;;&#xd;
+				lr_entrega[&quot;nom_cliente_end_ent&quot;] = &quot;&quot;;&#xd;
+			}&#xd;
+&#xd;
+			params[&quot;lr_entrega&quot;] = lr_entrega;&#xd;
+			log.info(&apos;lr_entrega...&apos; + lr_entrega);&#xd;
+&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+			log.info(&apos;PARAMETROS lr_entrega###&apos;);&#xd;
+			log.info(&apos;num_sequencia:&apos; + lr_entrega[&quot;num_sequencia&quot;]);&#xd;
+			log.info(&apos;end_entrega:&apos; + lr_entrega[&quot;end_entrega&quot;]);&#xd;
+			log.info(&apos;den_bairro:&apos; + lr_entrega[&quot;den_bairro&quot;]);&#xd;
+			log.info(&apos;cod_cidade:&apos; + lr_entrega[&quot;cod_cidade&quot;]);&#xd;
+			log.info(&apos;cod_cep:&apos; + lr_entrega[&quot;cod_cep&quot;]);&#xd;
+			log.info(&apos;num_cgc:&apos; + lr_entrega[&quot;num_cgc&quot;]);&#xd;
+			log.info(&apos;ins_estadual:&apos; + lr_entrega[&quot;ins_estadual&quot;]);&#xd;
+			log&#xd;
+					.info(&apos;nom_cliente_end_ent:&apos;&#xd;
+							+ lr_entrega[&quot;nom_cliente_end_ent&quot;]);&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+&#xd;
+			var lr_textos_pedido = {};&#xd;
+&#xd;
+			lr_textos_pedido[&quot;tex_observ_1&quot;] = &quot;&quot;;&#xd;
+			lr_textos_pedido[&quot;tex_observ_2&quot;] = &quot;&quot;;&#xd;
+&#xd;
+			var textoTotal = getValueForm(&quot;descricao&quot;, &quot;&quot;) + &quot;&quot;;&#xd;
+			var texto_nf_2 = textoTotal.substring(0, 76) + &quot;&quot;;&#xd;
+			var texto_nf_3 = textoTotal.substring(77, 153) + &quot;&quot;;&#xd;
+			var texto_nf_4 = textoTotal.substring(154, 228) + &quot;&quot;;&#xd;
+			var texto_nf_5 = textoTotal.substring(229, 304) + &quot;&quot;;&#xd;
+			var texto_nf_1 = &quot;Fluxo de Bonificacao &quot;+ numProcesso + &quot;&quot;;&#xd;
+&#xd;
+			lr_textos_pedido[&quot;den_texto_1&quot;] = texto_nf_1 + &quot;&quot;;&#xd;
+			lr_textos_pedido[&quot;den_texto_2&quot;] = texto_nf_2 + &quot;&quot;;&#xd;
+			lr_textos_pedido[&quot;den_texto_3&quot;] = texto_nf_3 + &quot;&quot;;&#xd;
+			lr_textos_pedido[&quot;den_texto_4&quot;] = texto_nf_4 + &quot;&quot;;&#xd;
+			lr_textos_pedido[&quot;den_texto_5&quot;] = texto_nf_5 + &quot;&quot;;&#xd;
+&#xd;
+			params[&quot;lr_textos_pedido&quot;] = lr_textos_pedido;&#xd;
+&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+			log.info(&apos;PARAMETROS lr_representante###&apos;);&#xd;
+			log.info(&apos;den_texto_1:&apos; + lr_textos_pedido[&quot;den_texto_1&quot;]);&#xd;
+			log.info(&apos;den_texto_2:&apos; + lr_textos_pedido[&quot;den_texto_2&quot;]);&#xd;
+			log.info(&apos;den_texto_3:&apos; + lr_textos_pedido[&quot;den_texto_3&quot;]);&#xd;
+			log.info(&apos;den_texto_4:&apos; + lr_textos_pedido[&quot;den_texto_4&quot;]);&#xd;
+			log.info(&apos;den_texto_5:&apos; + lr_textos_pedido[&quot;den_texto_5&quot;]);&#xd;
+			// IMPRIME OS LOGS-------------------------------------------&#xd;
+&#xd;
+			var lst_la_pedido_itens = [];&#xd;
+&#xd;
+			var lst_la_aen_pedido = [];&#xd;
+&#xd;
+			var camposItem = hAPI.getCardData(getValue(&quot;WKNumProces&quot;));&#xd;
+			var contadorItem = camposItem.keySet().iterator();&#xd;
+			var i = 0;&#xd;
+&#xd;
+			log.info(&apos;ANTES DO WHILE DE CADA ITEM&apos;);&#xd;
+&#xd;
+			while (contadorItem.hasNext()) {&#xd;
+				var idItem = contadorItem.next();&#xd;
+				var campo = idItem.split(&apos;___&apos;)[0];&#xd;
+				var seqItem = idItem.split(&apos;___&apos;)[1];&#xd;
+&#xd;
+				// log.info(&apos;idItem:&apos; +idItem)&#xd;
+				// log.info(&apos;campo:&apos; +campo)&#xd;
+				// log.info(&apos;seqItem:&apos;+seqItem)&#xd;
+&#xd;
+				if (seqItem != undefined &amp;&amp; campo == &quot;COD_ITEM&quot;) {&#xd;
+&#xd;
+					var parcelaID = getValueForm(&quot;parcelaID___&quot; + seqItem, &quot;&quot;)&#xd;
+							+ &quot;&quot;;&#xd;
+&#xd;
+					// Lógica para pegar somente os itens da parcela&#xd;
+					log.info(&apos;parcelaID: &apos; + parcelaID);&#xd;
+					log.info(&apos;Parcela atual: &apos; + parcAtual);&#xd;
+&#xd;
+					if (parcelaID != parcAtual)&#xd;
+						continue; // &#xd;
+&#xd;
+					i += 1;&#xd;
+					var la_pedido_itens = {};&#xd;
+&#xd;
+					la_pedido_itens[&quot;ind_bonificacao&quot;] = &quot;N&quot;;&#xd;
+					la_pedido_itens[&quot;sequencia_item&quot;] = i + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;cod_item&quot;] = getValueForm(&quot;cod_item___&quot;&#xd;
+							+ seqItem, &quot;&quot;)&#xd;
+							+ &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_adic&quot;] = (getValueForm(&#xd;
+							&quot;desconto___&quot; + seqItem, 0) + &quot;&quot;).replace(&apos;.&apos;, &apos;&apos;)&#xd;
+							.replace(&apos;,&apos;, &apos;.&apos;)&#xd;
+							+ &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pre_unit&quot;] = (getValueForm(&#xd;
+							&quot;valUnitario___&quot; + seqItem, 0) + &quot;&quot;).replace(&apos;.&apos;,&#xd;
+							&apos;&apos;).replace(&apos;,&apos;, &apos;.&apos;)&#xd;
+							+ &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;qtd_pecas_solic&quot;] = (getValueForm(&#xd;
+							&quot;quantidade___&quot; + seqItem, 0) + &quot;&quot;)&#xd;
+							.replace(&apos;.&apos;, &apos;&apos;).replace(&apos;,&apos;, &apos;.&apos;)&#xd;
+							+ &quot;&quot;;&#xd;
+&#xd;
+					// var dataEntrega = format.parse( getValueForm(&#xd;
+					// &quot;data_entrega___&quot;+seqItem, &quot;&quot; ) );&#xd;
+					// var dataEntregaCal = format.parse( getValueForm(&#xd;
+					// &quot;data_entrega_calc___&quot;+seqItem, &quot;&quot; ) );&#xd;
+&#xd;
+					// CALCULA A DATA COM O ULTIMO DIA DO MES&#xd;
+&#xd;
+					dataEntrega = carregaDataPgto(parcelaID);&#xd;
+					log.info(&apos;Data5...&apos; + dataEntrega);&#xd;
+&#xd;
+					la_pedido_itens[&quot;prz_entrega&quot;] = dataEntrega + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;val_frete_unit&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;val_seguro_unit&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_1&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_2&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_3&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_4&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_5&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_6&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_7&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_8&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_9&quot;] = 0 + &quot;&quot;;&#xd;
+					la_pedido_itens[&quot;pct_desc_10&quot;] = 0 + &quot;&quot;;&#xd;
+&#xd;
+					la_pedido_itens[&quot;den_texto_1&quot;] = &apos;&apos;;&#xd;
+					la_pedido_itens[&quot;den_texto_2&quot;] = &apos;&apos;;&#xd;
+					la_pedido_itens[&quot;den_texto_3&quot;] = &apos;&apos;;&#xd;
+					la_pedido_itens[&quot;den_texto_4&quot;] = &apos;&apos;;&#xd;
+					la_pedido_itens[&quot;den_texto_5&quot;] = &apos;&apos;;&#xd;
+					la_pedido_itens[&quot;xped&quot;] = &apos;&apos;;&#xd;
+					la_pedido_itens[&quot;nitemped&quot;] = &apos;&apos;;&#xd;
+&#xd;
+					lst_la_pedido_itens.push(la_pedido_itens);&#xd;
+&#xd;
+					// IMPRIME OS&#xd;
+					// LOGS-------------------------------------------&#xd;
+					log.info(&apos;PARAMETROS la_pedido_itens###&apos;);&#xd;
+					log.info(&apos;prz_entrega:&apos; + la_pedido_itens[&quot;prz_entrega&quot;]);&#xd;
+					// IMPRIME OS&#xd;
+					// LOGS-------------------------------------------&#xd;
+&#xd;
+					// trata aen&#xd;
+&#xd;
+					// var aen_repres = getValueForm( &quot;aen&quot;, &apos;&apos; )+&quot;&quot;;&#xd;
+&#xd;
+					var la_aen_pedido = {};&#xd;
+&#xd;
+					// 01100103&#xd;
+					cod_aen = getValueForm(&quot;cod_aen&quot;) + &quot;&quot;;&#xd;
+					log.info(&apos;cod_aen&apos; + cod_aen);&#xd;
+&#xd;
+					la_aen_pedido[&quot;sequencia_item&quot;] = i + &quot;&quot;;&#xd;
+					la_aen_pedido[&quot;linha_produto&quot;] = cod_aen.substring(0, 2);&#xd;
+					la_aen_pedido[&quot;linha_receita&quot;] = cod_aen.substring(2, 4);&#xd;
+					la_aen_pedido[&quot;segmto_mercado&quot;] = cod_aen.substring(4, 6);&#xd;
+					la_aen_pedido[&quot;classe_uso&quot;] = cod_aen.substring(6, 8);&#xd;
+					lst_la_aen_pedido.push(la_aen_pedido);&#xd;
+&#xd;
+					// IMPRIME OS&#xd;
+					// LOGS-------------------------------------------&#xd;
+					log.info(&apos;PARAMETROS la_aen_pedido###&apos;);&#xd;
+					log.info(&apos;sequencia_item:&apos;&#xd;
+							+ la_aen_pedido[&quot;sequencia_item&quot;]);&#xd;
+					log.info(&apos;linha_produto:&apos; + la_aen_pedido[&quot;linha_produto&quot;]);&#xd;
+					log.info(&apos;linha_receita:&apos; + la_aen_pedido[&quot;linha_receita&quot;]);&#xd;
+					log.info(&apos;segmto_mercado:&apos;&#xd;
+							+ la_aen_pedido[&quot;segmto_mercado&quot;]);&#xd;
+					log.info(&apos;classe_uso:&apos; + la_aen_pedido[&quot;classe_uso&quot;]);&#xd;
+					// IMPRIME OS&#xd;
+					// LOGS-------------------------------------------&#xd;
+&#xd;
+				}&#xd;
+			}&#xd;
+&#xd;
+			params[&quot;la_pedido_itens&quot;] = lst_la_pedido_itens;&#xd;
+&#xd;
+			params[&quot;la_aen_pedido&quot;] = lst_la_aen_pedido;&#xd;
+&#xd;
+			params[&quot;lr_retirada&quot;] = {};&#xd;
+			params[&quot;lr_compl_nfe&quot;] = {};&#xd;
+			params[&quot;lr_nf_referencia&quot;] = {};&#xd;
+			params[&quot;lr_cliente_interm&quot;] = {};&#xd;
+			params[&quot;lr_vendor&quot;] = {};&#xd;
+			params[&quot;lr_embarque&quot;] = {};&#xd;
+			params[&quot;la_consignatario_adic&quot;] = {};&#xd;
+			params[&quot;la_processo_refer&quot;] = {};&#xd;
+			params[&quot;la_comissao_item&quot;] = {};&#xd;
+			params[&quot;la_pedido_exportacao&quot;] = {};&#xd;
+			params[&quot;la_remessa_item&quot;] = {};&#xd;
+			params[&quot;la_grades_item&quot;] = {};&#xd;
+			params[&quot;la_prazo_grade&quot;] = {};&#xd;
+			data[&quot;params&quot;] = params;&#xd;
+&#xd;
+			log.info(&quot;## antes do stringify ## &quot; + data.toString());&#xd;
+			var jj = JSON.stringify(data);&#xd;
+&#xd;
+			log.info(&quot;## RESULT POST jj ## &quot; + jj);&#xd;
+			var vo = clientService.invoke(jj);&#xd;
+&#xd;
+			if (vo.getResult() == &quot;&quot; || vo.getResult().isEmpty()) {&#xd;
+				throw &quot;Retorno está vazio&quot;;&#xd;
+			} else {&#xd;
+&#xd;
+				// var jr = JSON.parse( vo.getResult() );&#xd;
+				log.info(&quot;## RESULT POST res ## &quot; + vo.getResult());&#xd;
+&#xd;
+				var jr = JSON.parse(vo.getResult());&#xd;
+				log.info(&quot;## QUANT. ## &quot; + jr.data.count_mensagens);&#xd;
+				if (jr.data.count_mensagens == null) {&#xd;
+					throw &apos;Não foi recebido retorno do servidor Logix!&apos;;&#xd;
+				} else if (jr.data.count_mensagens != 0) {&#xd;
+					var msg = &apos;Ocorreu erro no processamento do servidor Logix!\n&apos;;&#xd;
+					var msgFrm = &apos;&apos;;&#xd;
+					// msg += jr.data.mensagens[0].texto;&#xd;
+					for (var y = 0; y &lt; jr.data.count_mensagens; y++) {&#xd;
+						log.info(&quot;## YYYYYY ## &quot; + y);&#xd;
+						msg += jr.data.mensagens[y].texto + &quot;\n&quot;;&#xd;
+						msgFrm += jr.data.mensagens[y].texto + &quot;#BR#&quot;;&#xd;
+					}&#xd;
+					var msgs = new String(msg);&#xd;
+					// msgs = msgs.replace( /||||/g, &apos;\n&apos;).replace( /||/, &apos;&apos;);&#xd;
+					log.info(&quot;## RESULT POST MSG ## &quot; + msgs);&#xd;
+					if (jr.data.sit_pedido == null) {&#xd;
+						throw msgs;&#xd;
+					} else {&#xd;
+						hAPI.setCardValue(&quot;consistencias&quot;, msgFrm);&#xd;
+					}&#xd;
+				}&#xd;
+				// agora aqui&#xd;
+				// hAPI.setCardValue( &quot;sit_pedido&quot;, jr.data.sit_pedido );&#xd;
+				hAPI.setCardValue( &quot;num_pedido&quot;, jr.data.pedido );&#xd;
+				&#xd;
+				&#xd;
+				//entrou na atividade de envio de e-mail dos pedidos gerados pela bonificação&#xd;
+				//######### RECUPERA INFORMAÃ¿Ã¿ES DO PEDIDO DO LOGIX&#xd;
+				var cod_empresa = hAPI.getCardValue( &quot;empresa&quot; );&#xd;
+				var num_pedido = hAPI.getCardValue( &quot;num_pedido&quot; ); &#xd;
+				var cod_cliente = hAPI.getCardValue( &quot;cod_cliente&quot; );&#xd;
+				var cod_repres = hAPI.getCardValue( &quot;cod_repres&quot; );&#xd;
+				var consistencias = hAPI.getCardValue(&apos;consistencias&apos;);&#xd;
+				var numProcesso = getValue(&apos;WKNumProces&apos;);&#xd;
+				var userId = getValue(&quot;WKUser&quot;);&#xd;
+&#xd;
+				&#xd;
+				&#xd;
+				&#xd;
+				//grava o campo dos numeros do pedido para recuperar depois&#xd;
+				hAPI.setCardValue(&quot;num_pedidos_gerados&quot;, hAPI.getCardValue(&quot;num_pedidos_gerados&quot;)+parcAtual+&apos;-&apos;+num_pedido+&apos;;&apos;);&#xd;
+				&#xd;
+				&#xd;
+				log.info(&quot;ANTES DE GRAVAR MENSAGEM!&quot;);&#xd;
+				&#xd;
+				&#xd;
+				hAPI.setTaskComments(userId, numProcesso, 0, &quot;Pedido &quot; + jr.data.pedido&#xd;
+						+ &quot;  incluido no Logix com situação (&quot;&#xd;
+						+ jr.data.sit_pedido + &quot;) !&quot;);&#xd;
+				log.info(&quot;DEPOIS DE GRAVAR MENSAGEM!&quot;);&#xd;
+			}&#xd;
+		} catch (err) {&#xd;
+			log.info(&apos;ERROOOOO &apos; + err.toString());&#xd;
+			setComment(userId, numProcesso, err.toString());&#xd;
+			throw err.toString();&#xd;
+		}&#xd;
+	} // End for&#xd;
+&#xd;
+	function getValueForm(campo, padrao) {&#xd;
+		log.info(&quot;Campo........&quot; + campo);&#xd;
+		var valor = hAPI.getCardValue(campo);&#xd;
+		if (padrao == &quot;tipoPessoa&quot;)&#xd;
+			if (valor.indexOf(&quot;/0000-&quot;) == -1)&#xd;
+				valor = &quot;F&quot;;&#xd;
+			else&#xd;
+				valor = &quot;J&quot;;&#xd;
+&#xd;
+		log.info(&quot;Valor........&quot; + valor);&#xd;
+&#xd;
+		if (valor == &quot;&quot; || valor == &quot;&quot;) {&#xd;
+			valor = padrao;&#xd;
+			log.info(&quot;Valor padrão........&quot; + valor);&#xd;
+		}&#xd;
+		return valor;&#xd;
+	}&#xd;
+&#xd;
+	function carregaDataPgto(parcela) {&#xd;
+&#xd;
+		&#xd;
+		var dataAtual = new Date();&#xd;
+		log.info(&apos;Data1...&apos; + dataAtual);&#xd;
+&#xd;
+		var ultimoDiaDoMes = dataAtual.getDate();&#xd;
+		log.info(&apos;Data2...&apos; + ultimoDiaDoMes);&#xd;
+&#xd;
+		dataAtual.setDate(ultimoDiaDoMes);&#xd;
+		log.info(&apos;Data3...&apos; + dataAtual);&#xd;
+&#xd;
+		dataFinal = pegarDataAtual(dataAtual,parcela);&#xd;
+		log.info(&apos;Data4...&apos; + dataFinal);&#xd;
+&#xd;
+		return dataFinal;&#xd;
+&#xd;
+	}&#xd;
+&#xd;
+	function RetornaUltimoDiaDoMes(objetoDate,parcela) {&#xd;
+		log.info(&apos;ULTIMO DIA DO MES &apos;+ (new Date(objetoDate.getFullYear(), objetoDate.getMonth() + (parcela), 0))&#xd;
+		.getDate());&#xd;
+		return (new Date(objetoDate.getFullYear(), objetoDate.getMonth() + (parcela), 0))&#xd;
+				.getDate();&#xd;
+	}&#xd;
+&#xd;
+	function pegarDataAtual(data,parcela) {&#xd;
+&#xd;
+		ano = data.getFullYear(); // Get the four digit year (yyyy)&#xd;
+		mes = data.getMonth(); // Get the month (0-11)&#xd;
+		var mestratado = (parseInt(mes))+ parseInt(parcela);&#xd;
+		log.info(&apos;MES TRATADO &apos;+mestratado);&#xd;
+		dia = data.getDate(); // Get the day as a number (1-31)&#xd;
+		&#xd;
+		mes = mestratado;&#xd;
+		if (mestratado &lt; 10) {&#xd;
+			mes = &quot;0&quot; + mes;&#xd;
+		}&#xd;
+&#xd;
+		if (dia &lt; 10) {&#xd;
+			dia = &quot;0&quot; + dia;&#xd;
+		}&#xd;
+&#xd;
+		dataFinal = ano + &quot;-&quot; + mes + &quot;-&quot; + dia;&#xd;
+		log.info(&apos;DATA FINAL &apos;+dataFinal);&#xd;
+		return dataFinal;&#xd;
+	}&#xd;
+	function setComment(user, processo, comentario) {&#xd;
+		var constraints = new Array();&#xd;
+		constraints.push(DatasetFactory.createConstraint(&apos;processo&apos;, processo,&#xd;
+				processo, ConstraintType.MUST));&#xd;
+		constraints.push(DatasetFactory.createConstraint(&apos;user&apos;, user, user,&#xd;
+				ConstraintType.MUST));&#xd;
+		constraints.push(DatasetFactory.createConstraint(&apos;comentario&apos;,&#xd;
+				comentario, comentario, ConstraintType.MUST));&#xd;
+		var dataset = DatasetFactory.getDataset(&apos;setComent&apos;, null, constraints,&#xd;
+				null);&#xd;
+		if (dataset != null) {&#xd;
+			return dataset.getValue(0, &apos;retorno&apos;);&#xd;
+		}&#xd;
+	}&#xd;
+&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>servicetask23</eventId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function servicetask23(attempt, message) {
+
+	log.info(&apos;Entrou servicetask23&apos;)
+	
+	//######### RECUPERA INFORMAÇÕES DO PEDIDO DO LOGIX
+	var cod_empresa 	= hAPI.getCardValue( &quot;empresa&quot; );
+	var cod_cliente 	= hAPI.getCardValue( &quot;cod_cliente&quot; );
+	var nom_repres 		= hAPI.getCardValue( &quot;nom_repres&quot; );
+	var cnpj 			= hAPI.getCardValue( &quot;cnpj&quot; );
+	var razao_social 	= hAPI.getCardValue( &quot;razao_social&quot; );
+	var media 			= hAPI.getCardValue( &quot;media&quot; );
+	var descricao 		= hAPI.getCardValue( &quot;descricao&quot; );
+	var val_invest 		= hAPI.getCardValue( &quot;val_invest&quot; );
+	var qtdVezes 		= hAPI.getCardValue( &quot;qtdVezes&quot; );
+	var canal_vendas4;
+	
+	//recupera canal de vendas n4
+	 var constraints = new Array();
+	 constraints.push( DatasetFactory.createConstraint(&apos;dataBase&apos;, &apos;java:/jdbc/LogixPRD&apos;, null, ConstraintType.MUST) );
+	 constraints.push( DatasetFactory.createConstraint(&apos;table&apos;, &apos;eis_v_fluig_cv4&apos;, null, ConstraintType.MUST) );
+	 constraints.push( DatasetFactory.createConstraint(&apos;cod_cliente&apos;, cod_cliente, cod_cliente, ConstraintType.MUST) );
+
+	 var fields = new Array(&apos;cv4&apos;);
+	 var order = new Array();
+
+	 var dsPrincipal = DatasetFactory.getDataset(&quot;selectTable&quot;, fields, constraints, order);
+	 if (dsPrincipal != null) {
+		 canal_vendas4 = dsPrincipal.getValue(0, &quot;cv4&quot;);
+	 }
+	//fim recupera canal de vendas n4
+
+	//recupera gerente da regional
+	var cod_repres = hAPI.getCardValue(&quot;cod_repres&quot;);
+
+	log.info(&quot;## Repres ## &quot;+cod_repres );
+	var constraints = new Array();
+	constraints.push( DatasetFactory.createConstraint(&quot;cod_repres&quot;, cod_repres, cod_repres, ConstraintType.MUST) );
+    var dataset = DatasetFactory.getDataset(&quot;representante&quot;, null, constraints, null);
+    var codRegional = &quot;&quot;;
+    if ( dataset != null ){
+    	codRegional = dataset.getValue(0, &quot;cv_4&quot;); 
+    }
+    log.info(&quot;## Regional ## &quot;+codRegional );
+	var constraints = new Array();
+	constraints.push( DatasetFactory.createConstraint(&quot;tablename&quot;, &quot;regional&quot;, &quot;regional&quot;, ConstraintType.MUST) );
+	constraints.push( DatasetFactory.createConstraint(&quot;cod_regional&quot;, codRegional, codRegional, ConstraintType.MUST) );
+    var dataset = DatasetFactory.getDataset(&quot;representante_compl&quot;, null, constraints, null);
+    var idPai = &quot;&quot;;
+    var versionPai = &quot;&quot;;
+    if ( dataset != null ){
+    	idPai = dataset.getValue(0, &quot;metadata#id&quot;); 
+    	versionPai = dataset.getValue(0, &quot;metadata#version&quot;);
+    }
+    log.info(&quot;## PAI ## &quot;+idPai );
+	var constraints = new Array();
+	constraints.push( DatasetFactory.createConstraint(&quot;documentid&quot;, idPai, idPai, ConstraintType.MUST) );
+	constraints.push( DatasetFactory.createConstraint(&quot;version&quot;, versionPai, versionPai, ConstraintType.MUST) );
+    var dataset = DatasetFactory.getDataset(&quot;representante_compl&quot;, null, constraints, null);
+    //var login = &quot;&quot;;
+    var repReg = &quot;&quot;;
+    if ( dataset != null ){
+    	//login = dataset.getValue(0, &quot;login&quot;); 
+    	repReg = dataset.getValue(0, &quot;descricao&quot;);
+    }    
+    log.info(&quot;## RepReg ## &quot;+repReg );
+	//fim recupera gerente da regional 
+
+	
+	var c2 = DatasetFactory.createConstraint(&quot;tipo_cadastro&quot;, &apos;M&apos;, &apos;M&apos;, ConstraintType.MUST);
+	var constraintsM = new Array(c2);
+	var datasetM = DatasetFactory.getDataset(&apos;representante_compl&apos;, null, constraintsM, null);
+	log.info(&apos;ANTES DE ENTRAR NO RESPONSAVEL MARKETING &apos;+datasetM.getValue(0, &quot;nome_usuario&quot; ));
+	if (datasetM != null ){
+		var repMkt = datasetM.getValue(0, &quot;nome_usuario&quot; );
+		log.info(&apos;RESPONSAVEL MARKETING &apos;+repMkt);
+	}
+	
+	log.info(&apos;HTML......&apos;); 
+
+	var HTML = &quot;&quot;;
+	
+	HTML = &quot;#Imp_Endereco_Titulo     {font-family:Verdana,Helvetica;font-size:9px;font-weight:bold;color:#000000;text-decoration:none;}&quot;;
+
+	HTML = &quot;&lt;html&gt;&quot;;
+	HTML = HTML + &quot;&lt;head&gt;&quot;;
+	HTML = HTML + &quot;&lt;meta charset=&apos;UTF-8&apos;&gt;&quot;;
+	HTML = HTML + &quot;&lt;title&gt;&lt;/title&gt;&quot;;
+	HTML = HTML + &quot;&lt;style&gt;&lt;&quot;;
+	HTML = HTML + &quot;#Imp_Endereco_Titulo     {font-family:Verdana,Helvetica;font-size:9px;font-weight:bold;color:#000000;text-decoration:none;}&quot;;
+
+	HTML = HTML + &quot;#Imp_Endereco            {font-family:Verdana,Helvetica;font-size:9px;font-weight:normal;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#Imp_Endereco_Titulo     {font-family:Verdana,Helvetica;font-size:9px;font-weight:bold;color:#000000;text-decoration:none;}&quot;;
+
+	HTML = HTML + &quot;#Imp_Cabec               {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#Imp_Cabec_Titulo        {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#000000;text-decoration:none;}&quot;;
+
+	HTML = HTML + &quot;#Imp_Texto_Introd        {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:#000000;text-decoration:none;}&quot;;
+
+	HTML = HTML + &quot;#Imp_Produto             {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#Imp_Produto_Titulo      {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#Titulo_Produto          {Background-Color:#D9ECFF;}&quot;;
+
+	HTML = HTML + &quot;#Fundo_Esq_Top           {background: #FFFFFF; border-top: 2px #000000 solid;border-right: 1px #000000 solid;border-bottom: 2px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Cen_Top           {background: #FFFFFF; border-top: 2px #000000 solid;border-right: 1px #000000 solid;border-bottom: 2px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Dir_Top           {background: #FFFFFF; border-top: 2px #000000 solid;border-right: 2px #000000 solid;border-bottom: 2px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+
+	HTML = HTML + &quot;#Fundo_Esq_Top_Linhas    {background: #FFFFFF; border-top: 2px #000000 solid;border-right: 1px #000000 solid;border-bottom: 1px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Cen_Top_Linhas    {background: #FFFFFF; border-top: 2px #000000 solid;border-right: 1px #000000 solid;border-bottom: 1px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Dir_Top_Linhas    {background: #FFFFFF; border-top: 2px #000000 solid;border-right: 2px #000000 solid;border-bottom: 1px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Esq_Mid_Linhas    {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 1px #000000 solid;border-bottom: 1px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Cen_Mid_Linhas    {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 1px #000000 solid;border-bottom: 1px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Dir_Mid_Linhas    {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 2px #000000 solid;border-bottom: 1px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Esq_Bot_Linhas    {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 1px #000000 solid;border-bottom: 2px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Cen_Bot_Linhas    {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 1px #000000 solid;border-bottom: 2px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Dir_Bot_Linhas    {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 2px #000000 solid;border-bottom: 2px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+
+	HTML = HTML + &quot;#Fundo_Esq_Top_Linhas_Cor {background: #ECECEC; border-top: 2px #000000 solid;border-right: 1px #000000 solid;border-bottom: 1px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Cen_Top_Linhas_Cor {background: #ECECEC; border-top: 2px #000000 solid;border-right: 1px #000000 solid;border-bottom: 1px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Dir_Top_Linhas_Cor {background: #ECECEC; border-top: 2px #000000 solid;border-right: 2px #000000 solid;border-bottom: 1px #000000 solid;border-left: 1px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Esq_Mid_Linhas_Cor {background: #ECECEC; border-top: 1px #000000 solid;border-right: 1px #000000 solid;border-bottom: 1px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Esq_Bot_Linhas_Cor {background: #ECECEC; border-top: 1px #000000 solid;border-right: 1px #000000 solid;border-bottom: 2px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+
+	HTML = HTML + &quot;#Fundo_Linha_Top         {background: #FFFFFF; border-top: 2px #000000 solid;border-right: 2px #000000 solid;border-bottom: 1px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Linha_Mid         {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 2px #000000 solid;border-bottom: 1px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Linha_Bot         {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 2px #000000 solid;border-bottom: 2px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Fundo_Linha_Top_Cor     {background: #ECECEC; border-top: 2px #000000 solid;border-right: 2px #000000 solid;border-bottom: 1px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+
+	HTML = HTML + &quot;#Fundo_Linha             {background: #FFFFFF; border-top: 2px #000000 solid;border-right: 2px #000000 solid;border-bottom: 2px #000000 solid;border-left: 2px #000000 solid;}&quot;;
+
+	HTML = HTML + &quot;#Empty_Cell_1            {background: #FFFFFF; border-top: 1px #000000 solid;border-right: 0px #000000 solid;border-bottom: 0px #000000 solid;border-left: 0px #000000 solid;}&quot;;
+	HTML = HTML + &quot;#Empty_Cell_2            {background: #FFFFFF; border-top: 0px #000000 solid;border-right: 0px #000000 solid;border-bottom: 0px #000000 solid;border-left: 0px #000000 solid;}&quot;;
+
+	HTML = HTML + &quot;.tabela_noborder {border:0;}&quot;;
+
+	HTML = HTML + &quot;a{color:#000000;font-size:12px;font-family:Verdana,Helvetica;font-weight:normal;font-style:normal;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;a:hover{color:#000000;font-size:12px;font-family:Verdana,Helvetica;font-weight:normal;font-style:normal;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#PRETO_1_12_N           {font-family:Verdana,Helvetica;font-size:12px;font-weight:normal;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_12_N:hover     {font-family:Verdana,Helvetica;font-size:12px;font-weight:normal;color:#000000;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_12_B           {font-family:Verdana,Helvetica;font-size:12px;font-weight:bold;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_12_B:hover     {font-family:Verdana,Helvetica;font-size:12px;font-weight:bold;color:#000000;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#PRETO_1_11_N           {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_11_N:hover     {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:#000000;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_11_I           {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:#000000;font-style:italic;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_11_I:hover     {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:#000000;font-style:italic;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_11_B           {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_11_B:hover     {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#000000;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_11_BI          {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#000000;font-style:italic;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_11_BI:hover    {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#000000;font-style:italic;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#PRETO_1_10_N           {font-family:Verdana,Helvetica;font-size:10px;font-weight:normal;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_10_N:hover     {font-family:Verdana,Helvetica;font-size:10px;font-weight:normal;color:#000000;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_10_B           {font-family:Verdana,Helvetica;font-size:10px;font-weight:bold;color:#000000;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#PRETO_1_10_B:hover     {font-family:Verdana,Helvetica;font-size:10px;font-weight:bold;color:#000000;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#BRANCO_1_12_N          {font-family:Verdana,Helvetica;font-size:12px;font-weight:normal;color:#FFFFFF;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_12_N:hover    {font-family:Verdana,Helvetica;font-size:12px;font-weight:normal;color:#FFFFFF;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_12_B          {font-family:Verdana,Helvetica;font-size:12px;font-weight:bold;color:#FFFFFF;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_12_B:hover    {font-family:Verdana,Helvetica;font-size:12px;font-weight:bold;color:#FFFFFF;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_10_N          {font-family:Verdana,Helvetica;font-size:10px;font-weight:none;color:#FFFFFF;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_10_N:hover    {font-family:Verdana,Helvetica;font-size:10px;font-weight:none;color:#FFFFFF;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_10_B          {font-family:Verdana,Helvetica;font-size:10px;font-weight:bold;color:#FFFFFF;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_10_B:hover    {font-family:Verdana,Helvetica;font-size:10px;font-weight:bold;color:#FFFFFF;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_11_B          {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#FFFFFF;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#BRANCO_1_11_B:hover    {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#FFFFFF;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#BrancoM          		{font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#FFFFFF;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#BrancoM:hover    		{font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#FFFFFF;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#AMARELO_1_11_B          {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#ffff00;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#AMARELO_1_11_B:hover    {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#FFFF00;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#AZUL_1_11_BI           {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#0066CC;font-style:italic;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#AZUL_1_10_N            {font-family:Verdana,Helvetica;font-size:10px;font-weight:normal;color:#0066CC;text-decoration:none;}&quot;;
+
+	HTML = HTML + &quot;#CINZA_1_11_BI          {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#776969;font-style:italic;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#CINZA_1_11_B           {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#776969;font-style:none;text-decoration:none;}&quot;;
+
+	HTML = HTML + &quot;#AZUL_2_11_B            {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#0000A0;font-style:normal;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#AZUL_2_11_B:hover      {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:#0000A0;font-style:normal;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#AZUL_2_10_B            {font-family:Verdana,Helvetica;font-size:10px;font-weight:bold;color:#0000A0;font-style:normal;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#AZUL_2_9_B             {font-family:Verdana,Helvetica;font-size:9px;font-weight:bold;color:#0000A0;font-style:normal;text-decoration:none;}&quot;;
+
+	HTML = HTML + &quot;#VERMELHO_1_11_N        {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:red;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#VERMELHO_1_11_N:hover  {font-family:Verdana,Helvetica;font-size:11px;font-weight:normal;color:red;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#VERMELHO_1_11_B        {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:red;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#VERMELHO_1_11_B:hover  {font-family:Verdana,Helvetica;font-size:11px;font-weight:bold;color:red;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#VERMELHO_1_10_N        {font-family:Verdana,Helvetica;font-size:10px;font-weight:normal;color:red;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#VERMELHO_1_10_N:hover  {font-family:Verdana,Helvetica;font-size:10px;font-weight:normal;color:red;text-decoration:underline;}&quot;;
+	HTML = HTML + &quot;#VERMELHO_1_10_B        {font-family:Verdana,Helvetica;font-size:10px;font-weight:bold;color:red;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#VERMELHO_1_10_B:hover  {font-family:Verdana,Helvetica;font-size:10px;font-weight:bold;color:red;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#Menu_Principal          {font-family:Verdana,Helvetica;font-size:11px;font-weight:none;color:#FFFFFF;text-decoration:none;}&quot;;
+	HTML = HTML + &quot;#Menu_Principal:hover    {font-family:Verdana,Helvetica;font-size:11px;font-weight:none;color:#FFFFFF;text-decoration:underline;}&quot;;
+
+	HTML = HTML + &quot;#Atual{Background-Color:#ffffcc;}&quot;;
+	HTML = HTML + &quot;#Basico{Background-Color:#0066CC;}&quot;;
+	HTML = HTML + &quot;#Cor{Background-Color:#6699ff;}&quot;;
+	HTML = HTML + &quot;#ZebradoFraco{Background-Color:#D9ECFF;}&quot;;
+	HTML = HTML + &quot;#ZebradoForte{Background-Color:#BCDDFF}&quot;;
+	HTML = HTML + &quot;#Amarelo{Background-Color:#f5c00a}&quot;;
+	HTML = HTML + &quot;#SubTitulo{Background-Color:#127dcd}&quot;;
+	HTML = HTML + &quot;#Titulo{Background-Color:#005A9A}&quot;;
+	HTML = HTML + &quot;#Imprimir{Background-Color:#a6a6a6;}&quot;;
+	HTML = HTML + &quot;#ImpForte{Background-Color:#e0e0e0;}&quot;;
+	HTML = HTML + &quot;#ImpFraco{Background-Color:#f2f2f2;}&quot;;
+
+	HTML = HTML + &quot;span.botao {&quot;;
+	HTML = HTML + &quot;	text-align: center;&quot;;
+	HTML = HTML + &quot;	margin: 0px 10px;&quot;;
+	HTML = HTML + &quot;	padding: 2px 5px;&quot;;
+	HTML = HTML + &quot;	background: #1F6ED6;&quot;;
+	HTML = HTML + &quot;	border-top: 1px #EBF3FF solid;&quot;;
+	HTML = HTML + &quot;	border-right: 1px #003366 solid;&quot;;
+	HTML = HTML + &quot;	border-bottom: 1px #003366 solid;&quot;;
+	HTML = HTML + &quot;	border-left: 1px #EBF3FF solid;&quot;;
+	HTML = HTML + &quot;}&quot;;
+
+	HTML = HTML + &quot;span.botao a {&quot;;
+	HTML = HTML + &quot;	font-family: Verdana, Arial;&quot;;
+	HTML = HTML + &quot;	font-size: 11px;&quot;;
+	HTML = HTML + &quot;	font-weight: bold;&quot;;
+	HTML = HTML + &quot;	color: #FFFFFF;&quot;;
+	HTML = HTML + &quot;	text-decoration: none;&quot;;
+	HTML = HTML + &quot;}&quot;;
+
+	HTML = HTML + &quot;span.botao a:hover {&quot;;
+	HTML = HTML + &quot;	font-family: Verdana, Arial;&quot;;
+	HTML = HTML + &quot;	font-size: 11px;&quot;;
+	HTML = HTML + &quot;	font-weight: bold;&quot;;
+	HTML = HTML + &quot;	color: #99CCFF;&quot;;
+	HTML = HTML + &quot;	text-decoration: none;&quot;;
+	HTML = HTML + &quot;}&quot;;
+
+	HTML = HTML + &quot;&lt;/style&gt;&quot;;
+	HTML = HTML + &quot;&lt;/head&gt;&quot;;
+	HTML = HTML + &quot;&lt;body&gt;&quot;;	
+
+	var processo = getValue(&apos;WKNumProces&apos;);
+	var data     = pegarDataAtual();
+	
+	var c1 = DatasetFactory.createConstraint(&quot;cod_empresa&quot;, cod_empresa, cod_empresa, ConstraintType.MUST);
+	var constraints = new Array(c1);
+	var empresa = DatasetFactory.getDataset(&quot;empresa&quot;, null, constraints, null);
+	
+	var c1 = DatasetFactory.createConstraint(&quot;cod_cliente&quot;, cod_cliente, cod_cliente, ConstraintType.MUST);
+	var constraints = new Array(c1);
+	var cliente = DatasetFactory.getDataset(&quot;clientes_logix&quot;, null, constraints, null);
+
+	//ENDEREÇO / CLIENTE / ORÇAMENTO
+    HTML = HTML + &quot;&lt;table width=&apos;750&apos; border=&apos;0&apos; cellpadding=&apos;2&apos; cellspacing=&apos;0&apos;align=&apos;center&apos;&gt;&quot;;
+    HTML = HTML + &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 	&quot;&lt;td width=&apos;50%&apos; valign=&apos;top&apos; id=&apos;Fundo_Esq_Top&apos;&gt;&quot;; //ENDEREÇO
+	HTML = HTML + 	    &quot;&lt;table width=&apos;100%&apos; border=&apos;0&apos; cellpadding=&apos;0&apos; cellspacing=&apos;0&apos;&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td colspan=&apos;2&apos;&gt;&quot;; //LOGOTIPO
+	HTML = HTML + 						&quot;&lt;img src=&apos;http://www.ceramfix.com.br/imgs/logofluig.png&apos; border=&apos;0&apos;&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td colspan=&apos;2&apos;&gt;&quot;; //IE
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco_Titulo&apos;&gt;&quot;;
+	HTML = HTML + 						&quot;IE: &quot;;
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco&apos;&gt;&quot;;
+	HTML = HTML + 						empresa.getValue(0, &quot;ins_estadual&quot; );
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td colspan=&apos;2&apos;&gt;&quot;; //CNPJ
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco_Titulo&apos;&gt;&quot;;
+	HTML = HTML + 						&quot;CNPJ: &quot;;
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco&apos;&gt;&quot;;
+	HTML = HTML + 						empresa.getValue(0, &quot;num_cgc&quot;);
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td colspan=&apos;2&apos;&gt;&quot;; //ENDEREÇO
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco&apos;&gt;&quot;;
+	HTML = HTML + 						empresa.getValue(0, &quot;end_empresa&quot;);
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td colspan=&apos;2&apos;&gt;&quot;; //BAIRRO - CEP - CIDADE - ESTADO - PAIS(país não Ã¿Â© mais mostrado, pois não consta na tabela Empresa)
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco&apos;&gt;&quot;;		
+	HTML = HTML + 						empresa.getValue(0, &quot;den_bairro&quot;) + &quot; - &quot; + empresa.getValue(0, &quot;cod_cep&quot;) + &quot; - &quot; + empresa.getValue(0, &quot;den_munic&quot;) + &quot; - &quot; + empresa.getValue(0, &quot;uni_feder&quot;); //+ &quot;-&quot; + objFuncoes.Nulo(aEndereco[0][6]);
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td&gt;&quot;; //TELEFONE 1 - TELEFONE 2
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco_Titulo&apos;&gt;&quot;;
+	HTML = HTML + 						&quot;TEL: &quot;;
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco&apos;&gt;&quot;;
+	HTML = HTML + 						empresa.getValue(0, &quot;num_telefone&quot;);//&quot;-&quot; +objFuncoes.Nulo(aEndEmpresa[0][8]);
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td&gt;&quot;; //FAX
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco_Titulo&apos;&gt;&quot;;
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Endereco&apos;&gt;&quot;;
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	
+	HTML = HTML + 		&quot;&lt;/table&gt;&quot;;
+	HTML = HTML + 	&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 	&quot;&lt;td width=&apos;50%&apos; valign=&apos;top&apos; id=&apos;Fundo_Cen_Top&apos;&gt;&quot;; //CLIENTE
+	HTML = HTML + 	    &quot;&lt;table width=&apos;100%&apos; border=&apos;0&apos; cellpadding=&apos;0&apos; cellspacing=&apos;0&apos;&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td align=&apos;center&apos; height=&apos;25&apos;&gt;&quot;; //TITULO
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt; CLIENTE &lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td&gt;&quot;; //NOME
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + 						&quot;Nome: &quot;;
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	
+	HTML = HTML + 						cliente.getValue(0, &quot;nom_cliente&quot;);
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td&gt;&quot;; //ENDEREÇO end_cliente
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot; + cliente.getValue(0, &quot;end_cliente&quot;) + &quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td&gt;&quot;; //BAIRRO - CIDADE - ESTADO - PAIS
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	HTML = HTML + 						cliente.getValue(0, &quot;den_bairro&quot;)+ &quot; - &quot; +cliente.getValue(0, &quot;den_cidade&quot;)+ &quot; - &quot; +cliente.getValue(0, &quot;cod_uni_feder&quot;)+ &quot; - &quot; +cliente.getValue(0, &quot;cod_pais&quot;);
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+	
+	HTML = HTML + 		    &quot;&lt;tr&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;td&gt;&quot;; //FONE
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + 						&apos;Fone: &apos;;
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 					&quot;&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	HTML = HTML + 						cliente.getValue(0, &quot;num_telefone&quot;);
+	HTML = HTML + 					&quot;&lt;/font&gt;&quot;;
+	HTML = HTML + 				&quot;&lt;/td&gt;&quot;;
+	HTML = HTML + 			&quot;&lt;/tr&gt;&quot;;
+
+	HTML = HTML + 		&quot;&lt;/table&gt;&quot;;
+	HTML = HTML + 	&quot;&lt;/td&gt;&quot;
+	HTML = HTML + &quot;&lt;/tr&gt;&quot;
+	HTML = HTML + &quot;&lt;/table&gt;&quot;
+	
+	HTML = HTML + &quot;&lt;br&gt;&quot;;
+	
+	HTML = HTML + &quot;&lt;table width=&apos;750&apos; border=&apos;0&apos; cellpadding=&apos;5&apos; cellspacing=&apos;0&apos; align=&apos;center&apos;&gt;&quot;;
+	HTML = HTML + &quot;&lt;tr&gt;&lt;td&gt;&quot;
+	HTML = HTML + 	&quot;&lt;p&gt;&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;A/C: Depto: Marketing&lt;/font&gt;&lt;/p&gt;&quot;
+	HTML = HTML + &quot;&lt;/td&gt;&lt;/tr&gt;&quot;
+	HTML = HTML + &quot;&lt;tr&gt;&lt;td&gt;&quot;	
+	HTML = HTML + 	&quot;&lt;p&gt;&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&lt;center&gt;FORMULÁRIO&lt;/center&gt;&lt;/font&gt;&lt;/p&gt;&quot;
+	HTML = HTML + &quot;&lt;/td&gt;&lt;/tr&gt;&quot;
+	HTML = HTML + &quot;&lt;tr&gt;&lt;td&gt;&quot;
+	HTML = HTML + 	&quot;&lt;p&gt;&lt;font id=&apos;Imp_Cabec&apos;&gt;&lt;center&gt;SOLICITAÇÕES DE AÇÕES DE MARKETING - &quot;+processo+&quot;&lt;/center&gt;&lt;/font&gt;&lt;/p&gt;&quot;
+	HTML = HTML + &quot;&lt;/td&gt;&lt;/tr&gt;&quot;
+	HTML = HTML + &quot;&lt;tr&gt;&lt;td&gt;&quot;
+	HTML = HTML + 	&quot;&lt;p&gt;&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;Data do Envio da Solicitação: &quot;+data+&quot;&lt;/font&gt;&lt;/p&gt;&quot;
+	HTML = HTML + &quot;&lt;/td&gt;&lt;/tr&gt;&quot;
+	HTML = HTML + &quot;&lt;tr&gt;&lt;td&gt;&quot;
+	HTML = HTML + 	&quot;&lt;p&gt;&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;Regional: &quot;+canal_vendas4+&quot;&lt;/font&gt;&lt;/p&gt;&quot;
+	HTML = HTML + &quot;&lt;/td&gt;&lt;/tr&gt;&quot;
+	HTML = HTML + &quot;&lt;/table&gt;&quot;;
+		
+	HTML = HTML + &quot;&lt;table width=&apos;750&apos; border=&apos;1&apos; cellpadding=&apos;0&apos; cellspacing=&apos;0&apos; align=&apos;center&apos;&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr align=&apos;left&apos; height=&apos;25&apos; id=&apos;Fundo_Linha_Top_Cor&apos;&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Número Fluxo de Bonificação: &quot;+processo;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td height=&apos;25&apos; id=&apos;Fundo_Linha_Bot&apos; td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr align=&apos;left&apos; height=&apos;25&apos; id=&apos;Fundo_Linha_Top_Cor&apos; &gt;&quot;;
+	HTML = HTML + &quot;		&lt;td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Solicitante: &quot;+nom_repres;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td height=&apos;25&apos; id=&apos;Fundo_Linha_Bot&apos; td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr align=&apos;left&apos; height=&apos;25&apos; id=&apos;Fundo_Linha_Top_Cor&apos; &gt;&quot;;
+	HTML = HTML + &quot;		&lt;td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Razão Social/Código do Cliente: &quot;+cnpj+&quot; - &quot;+razao_social
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td height=&apos;25&apos; id=&apos;Fundo_Linha_Bot&apos; td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr align=&apos;left&apos; height=&apos;25&apos; id=&apos;Fundo_Linha_Top_Cor&apos; &gt;&quot;;
+	HTML = HTML + &quot;		&lt;td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Média de compra do Cliente nos últimos 3 meses: &quot;+media;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td height=&apos;25&apos; id=&apos;Fundo_Linha_Bot&apos; td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr align=&apos;left&apos; height=&apos;25&apos; id=&apos;Fundo_Linha_Top_Cor&apos; &gt;&quot;;
+	HTML = HTML + &quot;		&lt;td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Descrição da Ação: &quot;+descricao;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td height=&apos;25&apos; id=&apos;Fundo_Linha_Bot&apos; td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr align=&apos;left&apos; height=&apos;25&apos; id=&apos;Fundo_Linha_Top_Cor&apos; &gt;&quot;;
+	HTML = HTML + &quot;		&lt;td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Valor do Investimento:&quot;+val_invest;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td height=&apos;25&apos; id=&apos;Fundo_Linha_Bot&apos; td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr align=&apos;left&apos; height=&apos;25&apos; id=&apos;Fundo_Linha_Top_Cor&apos; width=&apos;950&apos;&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td width=&apos;50%&apos;&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Forma de Pagamento: Dinheiro&quot;;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Quantas vezes? &quot;+qtdVezes;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td valign=&apos;top&apos; height=&apos;120&apos; id=&apos;Fundo_Linha_Bot&apos; td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Aprovação Gerência Regional: &quot;+repReg;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;	&lt;tr&gt;&quot;;
+	HTML = HTML + &quot;		&lt;td valign=&apos;top&apos; height=&apos;120&apos; id=&apos;Fundo_Linha_Bot&apos; td colspan=&apos;2&apos;&gt;&quot;;
+	HTML = HTML + &quot;			&lt;font id=&apos;Imp_Cabec_Titulo&apos;&gt;&quot;;
+	HTML = HTML + &quot;				Responsável Marketing: &quot;+repMkt;
+	HTML = HTML + &quot;			&lt;/font&gt;&quot;;
+	HTML = HTML + &quot;		&lt;/td&gt;&quot;;
+	HTML = HTML + &quot;	&lt;/tr&gt;&quot;;
+	HTML = HTML + &quot;&lt;/table&gt;&quot;;
+
+	log.info( HTML );
+
+
+ 	 //######## RECUPERA AREA DE UPLOAD DO USUÁRIO 
+	 var user = getValue(&quot;WKUser&quot;);
+	 var constraints = new Array();		
+	 constraints.push( DatasetFactory.createConstraint(&quot;colleaguePK.companyId&quot;, 1, 1, ConstraintType.MUST) );
+	 constraints.push( DatasetFactory.createConstraint(&quot;colleaguePK.colleagueId&quot;, user, user, ConstraintType.MUST) );
+	 constraints.push( DatasetFactory.createConstraint(&quot;chave&quot;, &apos;UserPhysicalVolumeUpload&apos;, &apos;UserPhysicalVolumeUpload&apos;, ConstraintType.MUST) );
+	 var usuario = DatasetFactory.getDataset(&quot;colleagueParam&quot;, null, constraints, null);
+	 var path = &apos;&apos;; 
+	 if ( usuario.values.length &gt; 0 ) {
+		 path = usuario.getValue(0, &quot;val_param&quot;);
+		 log.info( &apos;ENTREI..... &apos; );
+	 }
+	 log.info( &apos;CAMINHO..... &apos;+path );
+	 
+	// ###### PUBLICA ARQUIVOS HTML NO PASTA DE ARQUIVOS
+	var nomeFile = cod_empresa+&quot;_&quot;+processo;
+	var extFile = &apos;html&apos;;
+	
+	try {
+		
+		var file = new java.io.File( path+nomeFile+&quot;.&quot;+extFile );
+		file.createNewFile();
+        var fiWi = new java.io.FileWriter( file.getAbsoluteFile());
+        var buWi = new java.io.BufferedWriter(fiWi);
+        buWi.write( HTML );
+        buWi.close();        
+
+	}catch( e ){
+		log.info( &apos;ERROOOOO.....&apos;+e );
+    }
+	
+	//## CRIA DOCUMENTO CLIENTE
+	var dto = docAPI.newDocumentDto();
+    dto.setDocumentDescription( nomeFile );
+    dto.setDocumentType( &quot;2&quot; );
+
+	var constraints = new Array();		
+	constraints.push( DatasetFactory.createConstraint(&quot;cod_empresa&quot;, cod_empresa, cod_empresa, ConstraintType.MUST) );
+	var paramEmpresa = DatasetFactory.getDataset(&quot;empresa_compl&quot;, null, constraints, null);
+	var folder = 1420;
+	if ( paramEmpresa != null &amp;&amp; paramEmpresa.values.length &gt; 0 ) {
+		log.info( &quot;ACHEI FOLDER..........: &quot; +paramEmpresa.getValue(0, &quot;num_pasta_cap&quot;) );
+		folder = parseInt( paramEmpresa.getValue(0, &quot;num_pasta_cap&quot;) );
+	}
+
+    dto.setParentDocumentId(folder);    
+    
+    dto.setDocumentTypeId( &quot;&quot; );
+    //## CRIA ARQUIVO
+    var  attachArray =  new  java.util.ArrayList();
+    var  mainAttach  = docAPI.newAttachment();
+    mainAttach.setFileName( nomeFile+&quot;.&quot;+extFile );
+    mainAttach.setPrincipal( true );
+    mainAttach.setAttach( false );
+    attachArray.add(mainAttach);
+   // Adicionando aprovadores
+    dto.setActiveVersion(true);
+    dto.setColleagueId(getValue(&quot;WKUser&quot;)); // Informar o usuário logado.
+    dto.setPublisherId(getValue(&quot;WKUser&quot;)); // Informar o publicador.
+    try  {
+        var  doc = docAPI.createDocument(dto, attachArray, null, null, null);
+        log.info( &quot;DOCUMENTO CRIADO COM O ID: &quot;  + doc.getDocumentId());
+    }  catch  (e) {
+        log.error( &quot;Problemas na criação do documento:\n&quot;  + e);
+    }
+    
+    //#####  ENVIO DE E-MAIL
+    // Recuperado informações para envia de e-mail via jboss
+	var contextWD = new javax.naming.InitialContext();
+	var mailSession = contextWD.lookup(&quot;java:jboss/mail/Default&quot;);
+	
+	//Gera e-mail cliente
+	var to = new Array();
+	//###### BUSCA DADOS CLIENTE - LOGIX REST
+	var c1 = DatasetFactory.createConstraint(&quot;cod_cliente&quot;, cod_cliente, cod_cliente, ConstraintType.MUST);
+    var constraints = new Array(c1);
+    
+    //Gera e-mail ao Gerente de Marketing
+	
+	//###### BUSCA DADOS CLIENTE - LOGIX REST
+	var con1 = DatasetFactory.createConstraint(&quot;tipo_cadastro&quot;, &apos;M&apos;, &apos;M&apos;, ConstraintType.MUST);
+    var constraints = new Array(con1);
+    var dataset = DatasetFactory.getDataset(&apos;representante_compl&apos;, null, constraints, null);
+    if( dataset != null ) {
+    	for (var x = 0; x &lt; dataset.values.length; x++) {
+		    // ##### Carrega lista de e-mail
+    		log.info(&apos;DATA SET...&apos;+dataset );
+    		var matricula = dataset.getValue(x, &quot;matricula&quot; );
+    		var mail = loadCampoDataSet( &quot;colleague&quot;, &quot;colleaguePK.colleagueId&quot;, matricula, &quot;mail&quot; );
+			to.push( new javax.mail.internet.InternetAddress( mail ) );
+		}
+	}
+    
+	//to.push( new javax.mail.internet.InternetAddress(&quot;jefferson.schueroff@totvs.com.br&quot;) );
+	//to.push( new javax.mail.internet.InternetAddress(&quot;daivid.thomaz@ceramfix.com.br&quot;) );
+	
+	//### CRIA MENSSAGEM
+	var menssagem = javax.mail.internet.MimeMessage( mailSession );	
+	var from = new javax.mail.internet.InternetAddress(&quot;fluig@ceramfix.com.br&quot;);
+    menssagem.setFrom(from);
+    menssagem.setRecipients(javax.mail.Message.RecipientType.TO, to);
+    menssagem.setSubject(&quot;SOLICITAÇÕES DE AÇÕES DE MARKETING - &quot;+processo);
+
+    //### Cria corpo do e-mail
+    var textPart = new javax.mail.internet.MimeBodyPart();
+    textPart.setText(HTML, &quot;utf-8&quot;);
+    var htmlPart = new javax.mail.internet.MimeBodyPart();
+    htmlPart.setContent(HTML, &quot;text/html; charset=utf-8&quot;);
+    var multipart = new javax.mail.internet.MimeMultipart();
+    multipart.addBodyPart(htmlPart);
+    menssagem.setContent(multipart);
+
+    // Cria anexo do e-mail
+    var messageBodyPart = new javax.mail.internet.MimeBodyPart();
+    messageBodyPart.setDataHandler( new javax.activation.DataHandler( new javax.mail.util.ByteArrayDataSource( HTML, &quot;text/html; charset=utf-8&quot; ) ) );
+    messageBodyPart.setFileName( nomeFile+&quot;.&quot;+extFile  );
+    multipart.addBodyPart(messageBodyPart);
+    menssagem.setContent(multipart);
+    javax.mail.Transport.send(menssagem);
+    //mailSession.close();
+
+	
+	//#### FUNÇÃO PARA RECUPERAR A DESCRIÇÃO DE UM CODIGO EM UM DATA SET ##### 
+	
+	function loadCampoDataSet( denDataSet, campo, valor, campoRetorno ){
+		
+		log.info( &apos;Execute DataSet......... &apos;+denDataSet+&apos; - &apos;+campo+&apos; - &apos;+valor+&apos; - &apos;+campoRetorno );
+	    var c1 = DatasetFactory.createConstraint( campo, valor, valor, ConstraintType.MUST);
+	    var constraints = new Array(c1);
+	    //Busca o dataset
+	    var dataset = DatasetFactory.getDataset( denDataSet, null, constraints, null);
+		if ( dataset != null ){
+			for (var x = 0; x &lt; dataset.values.length; x++) {
+				log.info( &apos;Result DataSet......... &apos;+campoRetorno+&apos; - &apos;+dataset.getValue(x, campoRetorno ) );
+				return dataset.getValue(x, campoRetorno );
+			}
+		}
+		return &apos; &apos;;
+	}
+
+	function pegarDataAtual(){   
+
+	 	data = new Date();
+	 	ano  = data.getFullYear();  //Get the four digit year (yyyy)	
+	 	mes  = data.getMonth() + 1;	//Get the month (0-11)
+	 	dia  = data.getDate();		//Get the day as a number (1-31)
+
+	 	if (mes&lt;10) {
+	 		mes = &quot;0&quot;+mes;
+	 	}
+
+		if (dia&lt;10) {
+	 		dia = &quot;0&quot;+dia;
+	 	}
+
+	 	
+	 	dataFinal = dia+&quot;/&quot;+mes+&quot;/&quot;+ano;
+	 	
+	   return dataFinal;
+	}
+	
+} </eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>servicetask53</eventId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function servicetask53(attempt, message) {
+	var qtdVezes = getValueForm(&quot;qtdVezes&quot;, &quot;&quot;) + &quot;&quot;;
+	
+	for (var parcAtual = 1; parcAtual &lt;= qtdVezes; parcAtual++) {
+		try {
+			var pedidos_gerados = hAPI.getCardValue( &quot;num_pedidos_gerados&quot; );
+			var pedido_atual = 0;
+			pedido_atual = (pedidos_gerados.substr(pedidos_gerados.indexOf(parcAtual+&apos;-&apos;),pedidos_gerados.indexOf(&apos;;&apos;)));
+			var seq_pedidos = (pedido_atual.substr(pedido_atual.indexOf(&apos;-&apos;)+1,pedido_atual.length));
+			//entrou na atividade de envio de e-mail dos pedidos gerados pela bonificação
+			//######### RECUPERA INFORMAÃ¿Ã¿ES DO PEDIDO DO LOGIX
+			var cod_empresa = hAPI.getCardValue( &quot;empresa&quot; );
+			var num_pedido = seq_pedidos; 
+			var cod_cliente = hAPI.getCardValue( &quot;cod_cliente&quot; );
+			var cod_repres = hAPI.getCardValue( &quot;cod_repres&quot; );
+			var consistencias = hAPI.getCardValue(&apos;consistencias&apos;);
+			var numProcesso = getValue(&apos;WKNumProces&apos;);
+			var userId = getValue(&quot;WKUser&quot;);
+			log.info(&apos;PEDIDOSX &apos;+cod_empresa+&apos; &apos;+num_pedido+&apos; &apos;+cod_cliente+&apos; &apos;+cod_repres+&apos; &apos;+consistencias+&apos; &apos;+numProcesso+&apos; &apos;+userId);
+			var constraints = new Array();
+			constraints.push( DatasetFactory.createConstraint( &apos;cod_empresa&apos;, cod_empresa, cod_empresa, ConstraintType.MUST) );
+			constraints.push( DatasetFactory.createConstraint( &apos;num_pedido&apos;, num_pedido, num_pedido, ConstraintType.MUST) );
+			constraints.push( DatasetFactory.createConstraint( &apos;usuario&apos;, userId, userId, ConstraintType.MUST) );
+			constraints.push( DatasetFactory.createConstraint( &apos;cod_cliente&apos;, cod_cliente, cod_cliente, ConstraintType.MUST) );
+			constraints.push( DatasetFactory.createConstraint( &apos;cod_repres&apos;, cod_repres, cod_repres, ConstraintType.MUST) );
+			constraints.push( DatasetFactory.createConstraint( &apos;numProcesso&apos;, numProcesso, numProcesso, ConstraintType.MUST) );
+			constraints.push( DatasetFactory.createConstraint( &apos;consistencias&apos;, consistencias, consistencias, ConstraintType.MUST) );
+		
+			var dataset = DatasetFactory.getDataset( &apos;pedido_send_mail&apos;, null, constraints, null);
+		
+			if (dataset != null) {
+				if (dataset.getValue(0, &quot;result&quot;) == &apos;NOK&apos;) {
+					throw &apos;Erro ao processar envio de e-mail: &apos; + dataset.getValue(0, &quot;erro&quot;);
+				}
+			}
+			//fim da atividade de envio de e-mail dos pedidos gerados pela bonificação
+		} catch (err) {
+			log.info(&apos;ERROOOOO &apos; + err.toString());
+			setComment(userId, numProcesso, err.toString());
+			throw err.toString();
+		}
+	}
+}
+
+function setComment(user, processo, comentario) {
+	var constraints = new Array();
+	constraints.push(DatasetFactory.createConstraint(&apos;processo&apos;, processo,
+			processo, ConstraintType.MUST));
+	constraints.push(DatasetFactory.createConstraint(&apos;user&apos;, user, user,
+			ConstraintType.MUST));
+	constraints.push(DatasetFactory.createConstraint(&apos;comentario&apos;,
+			comentario, comentario, ConstraintType.MUST));
+	var dataset = DatasetFactory.getDataset(&apos;setComent&apos;, null, constraints,
+			null);
+	if (dataset != null) {
+		return dataset.getValue(0, &apos;retorno&apos;);
+	}
+}
+
+function getValueForm(campo, padrao) {
+	log.info(&quot;Campo........&quot; + campo);
+	var valor = hAPI.getCardValue(campo);
+	if (padrao == &quot;tipoPessoa&quot;)
+		if (valor.indexOf(&quot;/0000-&quot;) == -1)
+			valor = &quot;F&quot;;
+		else
+			valor = &quot;J&quot;;
+
+	log.info(&quot;Valor........&quot; + valor);
+
+	if (valor == &quot;&quot; || valor == &quot;&quot;) {
+		valor = padrao;
+		log.info(&quot;Valor padrão........&quot; + valor);
+	}
+	return valor;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeStateEntry</eventId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function beforeStateEntry(sequenceId){&#xd;
+		log.info(&apos;	:&apos;);&#xd;
+		log.info(&apos;aprova_regional :&apos;+hAPI.getCardValue( &quot;aprova_regional&quot;));&#xd;
+		log.info(&apos;WKCompletTask :&apos;+getValue(&quot;WKCompletTask&quot;));&#xd;
+		log.info(&apos;WKNextState :&apos;+getValue(&quot;WKNextState&quot;));&#xd;
+		log.info(&apos;sequenceId :&apos;+sequenceId);&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+  </list>
+  <list/>
+  <list>
+    <SwimLane>
+      <color>FF8080</color>
+      <height>145</height>
+      <width>1671</width>
+      <positionX>10</positionX>
+      <positionY>162</positionY>
+      <stateName>Fluig</stateName>
+      <type>2</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>1</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>8080FF</color>
+      <height>145</height>
+      <width>1671</width>
+      <positionX>10</positionX>
+      <positionY>449</positionY>
+      <stateName>Gerente de Marketing</stateName>
+      <type>2</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>2</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>C0C0C0</color>
+      <height>145</height>
+      <width>1671</width>
+      <positionX>10</positionX>
+      <positionY>305</positionY>
+      <stateName>Gerente Regional</stateName>
+      <type>2</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>3</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>FFFF80</color>
+      <height>145</height>
+      <width>1671</width>
+      <positionX>10</positionX>
+      <positionY>17</positionY>
+      <stateName>Representante</stateName>
+      <type>2</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </swimLanePK>
+    </SwimLane>
+  </list>
+  <list/>
+  <list/>
+  <list>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>15</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>483</positionX>
+      <positionY>333</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>15</linkSequence>
+        <bendSequence>2</bendSequence>
+      </processLinkBendPK>
+      <positionX>249</positionX>
+      <positionY>333</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>15</linkSequence>
+        <bendSequence>3</bendSequence>
+      </processLinkBendPK>
+      <positionX>41</positionX>
+      <positionY>333</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>15</linkSequence>
+        <bendSequence>4</bendSequence>
+      </processLinkBendPK>
+      <positionX>41</positionX>
+      <positionY>234</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>17</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1447</positionX>
+      <positionY>394</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>18</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>482</positionX>
+      <positionY>522</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>19</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>383</positionX>
+      <positionY>235</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>21</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>644</positionX>
+      <positionY>575</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>21</linkSequence>
+        <bendSequence>2</bendSequence>
+      </processLinkBendPK>
+      <positionX>928</positionX>
+      <positionY>575</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>33</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>974</positionX>
+      <positionY>522</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>36</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1407</positionX>
+      <positionY>235</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>37</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>100</positionX>
+      <positionY>391</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>42</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>284</positionX>
+      <positionY>47</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>43</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>411</positionX>
+      <positionY>102</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>44</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>99</positionX>
+      <positionY>111</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>47</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1447</positionX>
+      <positionY>514</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>49</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>594</positionX>
+      <positionY>515</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>51</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>383</positionX>
+      <positionY>90</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>54</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>737</positionX>
+      <positionY>291</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>54</linkSequence>
+        <bendSequence>2</bendSequence>
+      </processLinkBendPK>
+      <positionX>1431</positionX>
+      <positionY>291</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>58</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1504</positionX>
+      <positionY>500</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>59</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1626</positionX>
+      <positionY>244</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <version>73</version>
+        <linkSequence>60</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1407</positionX>
+      <positionY>524</positionY>
+    </ProcessLinkBend>
+  </list>
+  <list/>
+  <list/>
+  <list>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>cnpj</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>CNPJ</fieldDescription>
+      <slotId>1</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>cod_repres</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>Cod Repres</fieldDescription>
+      <slotId>2</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>data_emissao</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>Data Emissão</fieldDescription>
+      <slotId>3</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>empresa</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>Empresa</fieldDescription>
+      <slotId>4</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>nom_repres</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>Representante</fieldDescription>
+      <slotId>5</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>razao_social</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>Cliente</fieldDescription>
+      <slotId>6</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>totGeral</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>Total Geral</fieldDescription>
+      <slotId>7</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>transportadora</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>Transportadora</fieldDescription>
+      <slotId>8</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>inc_bonificacao</processId>
+        <fieldId>val_invest</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>Valor Investimento Estimado</fieldDescription>
+      <slotId>9</slotId>
+    </ProcessFormField>
+  </list>
+  <list>
+    <ProcessStateService>
+      <companyId>1</companyId>
+      <processId>inc_bonificacao</processId>
+      <version>1</version>
+      <sequence>22</sequence>
+      <attempts>0</attempts>
+      <sucessFullMessage>Integração executada com sucesso</sucessFullMessage>
+      <serviceName>logix</serviceName>
+      <frequency>1</frequency>
+      <frequencyType>2</frequencyType>
+    </ProcessStateService>
+    <ProcessStateService>
+      <companyId>1</companyId>
+      <processId>inc_bonificacao</processId>
+      <version>1</version>
+      <sequence>23</sequence>
+      <attempts>0</attempts>
+      <sucessFullMessage>Integração executada com sucesso</sucessFullMessage>
+      <frequency>1</frequency>
+      <frequencyType>2</frequencyType>
+    </ProcessStateService>
+    <ProcessStateService>
+      <companyId>1</companyId>
+      <processId>inc_bonificacao</processId>
+      <version>1</version>
+      <sequence>38</sequence>
+      <attempts>0</attempts>
+      <sucessFullMessage>Integração executada com sucesso</sucessFullMessage>
+      <frequency>1</frequency>
+      <frequencyType>0</frequencyType>
+    </ProcessStateService>
+    <ProcessStateService>
+      <companyId>1</companyId>
+      <processId>inc_bonificacao</processId>
+      <version>1</version>
+      <sequence>53</sequence>
+      <attempts>3</attempts>
+      <sucessFullMessage>Integração executada com sucesso</sucessFullMessage>
+      <frequency>5</frequency>
+      <frequencyType>0</frequencyType>
+    </ProcessStateService>
+  </list>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+</list>

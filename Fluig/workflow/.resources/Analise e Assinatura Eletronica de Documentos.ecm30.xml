@@ -1,0 +1,1495 @@
+<list>
+  <ProcessDefinition>
+    <processDefinitionPK>
+      <companyId>1</companyId>
+      <processId>Analise e Assinatura Eletronica de Documentos</processId>
+    </processDefinitionPK>
+    <processDescription>Inclusão de Documentos para Analise e Assinatura</processDescription>
+    <instruction></instruction>
+    <active>true</active>
+    <publicProcess>false</publicProcess>
+    <volumeId>Default</volumeId>
+    <categoryId>Jurídico</categoryId>
+    <managerEngineAllocationId>Papel</managerEngineAllocationId>
+    <managerEngineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;conferencia_documentos_juridico&lt;/Role&gt;&lt;/AssignmentController&gt;</managerEngineAllocationConfiguration>
+    <snapshotFrequency>0</snapshotFrequency>
+    <baseDay>0</baseDay>
+    <baseMonth>0</baseMonth>
+    <periodId>Default</periodId>
+    <uniqueCardVersion>false</uniqueCardVersion>
+    <keyWord></keyWord>
+    <complementsLevel>1</complementsLevel>
+    <notifyRequisitionerComplements>true</notifyRequisitionerComplements>
+    <notifyManagerComplements>false</notifyManagerComplements>
+    <deadlineTime>0</deadlineTime>
+    <warningDeadlineTime>0</warningDeadlineTime>
+    <notifyAuthorityComplements>true</notifyAuthorityComplements>
+  </ProcessDefinition>
+  <ProcessDefinitionVersion>
+    <processDefinitionVersionPK>
+      <companyId>1</companyId>
+      <processId>Inclusão de Documentos para Analise e Assinatura</processId>
+      <version>30</version>
+    </processDefinitionVersionPK>
+    <versionDescription></versionDescription>
+    <formId>495116</formId>
+    <editionMode>true</editionMode>
+    <updateAttachmentsVersion>false</updateAttachmentsVersion>
+    <controlsAttachmentsSecurity>false</controlsAttachmentsSecurity>
+    <active>true</active>
+    <blockedVersion>false</blockedVersion>
+    <counterSign>false</counterSign>
+    <openInstances>0</openInstances>
+    <bpmnVersion>2</bpmnVersion>
+    <processStates/>
+    <favorito>false</favorito>
+    <inheritFormSecurity>false</inheritFormSecurity>
+    <mobileReady>false</mobileReady>
+  </ProcessDefinitionVersion>
+  <list>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </processStatePK>
+      <stateName>Início</stateName>
+      <stateDescription>Início</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;inc_analise_juridico&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>true</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>150</positionX>
+      <positionY>82</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>10</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>5</sequence>
+      </processStatePK>
+      <stateName>Analisar Documento Jurídico</stateName>
+      <stateDescription>Analisar Documento Jurídico</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>86400</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;analise_documento_juridico&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>260</positionX>
+      <positionY>208</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>true</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>11</sequence>
+      </processStatePK>
+      <stateName>Conferir e Encaminhar para Assinatura</stateName>
+      <stateDescription>Conferir e Encaminhar para Assinatura</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;conferencia_documentos_juridico&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>260</positionX>
+      <positionY>390</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>13</sequence>
+      </processStatePK>
+      <stateName>Revisar Documento com base no Parecer Jurídico</stateName>
+      <stateDescription>Revisar Documento com base no Parecer Jurídico</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>86400</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;4&lt;/BaseActivity&gt;&lt;Returns&gt;Last&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>460</positionX>
+      <positionY>50</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>true</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>16</sequence>
+      </processStatePK>
+      <stateName>Enviar documento para integração Vertsign</stateName>
+      <stateDescription>Enviar documento para integração Vertsign</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>480</positionX>
+      <positionY>542</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>82</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>1</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>22</sequence>
+      </processStatePK>
+      <stateName>Erro Integração</stateName>
+      <stateDescription>Erro Integração</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;conferencia_documentos_juridico&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>595</positionX>
+      <positionY>413</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>25</sequence>
+      </processStatePK>
+      <stateName>Verificar Assinaturas</stateName>
+      <stateDescription>Verificar Assinaturas</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>820</positionX>
+      <positionY>70</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>18</sequence>
+      </processStatePK>
+      <stateName>Intermediário</stateName>
+      <stateDescription>Intermediário</stateDescription>
+      <instruction>Evento intermediário do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>1</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>710</positionX>
+      <positionY>571</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>35</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <parentSequence>0</parentSequence>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>21</sequence>
+      </processStatePK>
+      <stateName>Intermediário</stateName>
+      <stateDescription>Intermediário</stateDescription>
+      <instruction>Evento intermediário do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>1</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>570</positionX>
+      <positionY>552</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>43</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <parentSequence>16</parentSequence>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>31</sequence>
+      </processStatePK>
+      <stateName>Tipo de Documentos sem necessidade de parecer?</stateName>
+      <stateDescription>Tipo de Documentos sem necessidade de parecer?</stateDescription>
+      <joint>false</joint>
+      <initialState>false</initialState>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <automatic>true</automatic>
+      <positionX>140</positionX>
+      <positionY>560</positionY>
+      <inhibitTransfer>false</inhibitTransfer>
+      <stateType>1</stateType>
+      <bpmnType>120</bpmnType>
+      <signalId>0</signalId>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>27</sequence>
+      </processStatePK>
+      <stateName>Fim</stateName>
+      <stateDescription>Fim</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1080</positionX>
+      <positionY>90</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+  </list>
+  <list>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <expressionOrder>1</expressionOrder>
+        <version>30</version>
+        <sequence>31</sequence>
+      </conditionProcessStatePK>
+      <condition>hAPI.getCardValue(&apos;ies_tipo_direto&apos;) == &apos;S&apos; </condition>
+      <destinationSequenceId>11</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <expressionOrder>2</expressionOrder>
+        <version>30</version>
+        <sequence>31</sequence>
+      </conditionProcessStatePK>
+      <condition>true</condition>
+      <destinationSequenceId>5</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+  </list>
+  <list>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>14</linkSequence>
+      </processLinkPK>
+      <actionLabel>Reprovar</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>5</initialStateSequence>
+      <finalStateSequence>13</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>15</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>13</initialStateSequence>
+      <finalStateSequence>5</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>17</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>11</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>19</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>16</initialStateSequence>
+      <finalStateSequence>18</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>23</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>21</initialStateSequence>
+      <finalStateSequence>22</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>24</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>22</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>26</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>18</initialStateSequence>
+      <finalStateSequence>25</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>28</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>25</initialStateSequence>
+      <finalStateSequence>27</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>32</linkSequence>
+      </processLinkPK>
+      <actionLabel>Enviar para Analise</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>4</initialStateSequence>
+      <finalStateSequence>31</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>33</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>31</initialStateSequence>
+      <finalStateSequence>11</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>34</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>31</initialStateSequence>
+      <finalStateSequence>5</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>12</linkSequence>
+      </processLinkPK>
+      <actionLabel>Aprovar</actionLabel>
+      <returnPermited>true</returnPermited>
+      <initialStateSequence>5</initialStateSequence>
+      <finalStateSequence>11</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+  </list>
+  <list/>
+  <list>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>intermediateconditional18</eventId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function intermediateconditional18() {
+
+	var solicitacao = getValue(&quot;WKNumProces&quot;);
+	var finalizado  = false;
+	
+	log.info(&quot;&gt;&gt;&gt; Vertsign - BPM - Verificando status do documento&quot;);	
+	log.info(&quot;&gt;&gt;&gt; Solicitacao: &quot; + solicitacao);
+	
+	var c1 = DatasetFactory.createConstraint(&apos;numSolic&apos;, solicitacao, solicitacao, ConstraintType.MUST);
+	var form_aux = DatasetFactory.getDataset(&apos;ds_form_aux_vertsign&apos;, null, [c1], null);
+	
+	if (form_aux &amp;&amp; form_aux.rowsCount &gt; 0) {		
+		
+		log.info(&quot;&gt;&gt;&gt; Status do Documento: &quot; + form_aux.getValue(0, &quot;statusAssinatura&quot;));
+		
+		if (form_aux.getValue(0, &quot;statusAssinatura&quot;) == &quot;Assinado&quot;  ||
+			form_aux.getValue(0, &quot;statusAssinatura&quot;) == &quot;Rejeitado&quot; ||
+			form_aux.getValue(0, &quot;statusAssinatura&quot;) == &quot;Cancelado&quot;){
+			finalizado = true;
+		}
+	} else {
+		log.info(&quot;&gt;&gt;&gt; Não localizado Formulário Auxiliar, irá finalizar com erros&quot;);
+		finalizado = true;
+	}
+	
+	return finalizado;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>afterProcessCreate</eventId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function afterProcessCreate(processId){&#xd;
+	hAPI.setCardValue(&quot;numSolic&quot;, processId);&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>servicetask16</eventId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function servicetask16(attempt, message) {&#xd;
+	&#xd;
+	&#xd;
+		&#xd;
+		try {&#xd;
+			&#xd;
+			var solicitacao = getValue(&quot;WKNumProces&quot;);&#xd;
+			&#xd;
+			log.info(&quot;&gt;&gt;&gt; Vertsign - BPM - Enviando documento para assinatura&quot;);	&#xd;
+			log.info(&quot;&gt;&gt;&gt; Solicitacao: &quot; + solicitacao);&#xd;
+			&#xd;
+			var c1 = DatasetFactory.createConstraint(&apos;numSolic&apos;, solicitacao, solicitacao, ConstraintType.MUST);&#xd;
+			var form_aux = DatasetFactory.getDataset(&apos;ds_form_aux_vertsign&apos;, null, [c1], null);&#xd;
+			&#xd;
+			if (form_aux &amp;&amp; form_aux.rowsCount &gt; 0) {&#xd;
+				log.info(&quot;&gt;&gt;&gt; Formulario Auxiliar: &quot; + form_aux.rowsCount);&#xd;
+				for (var i = 0; i &lt; form_aux.rowsCount; i++) {&#xd;
+					log.info(&quot;&gt;&gt;&gt; Enviando arquivo: &quot; + form_aux.getValue(i, &apos;codArquivo&apos;) + &apos; arquivo &apos;+i);&#xd;
+					var c2 = DatasetFactory.createConstraint(&apos;codArquivo&apos;, form_aux.getValue(i, &apos;codArquivo&apos;), form_aux.getValue(i, &apos;codArquivo&apos;), ConstraintType.MUST);&#xd;
+					var ds_upload = DatasetFactory.getDataset(&quot;ds_upload_vertsign_manual&quot;, null, [c2], null);&#xd;
+					&#xd;
+					if (ds_upload){				&#xd;
+						&#xd;
+						form_aux = DatasetFactory.getDataset(&apos;ds_form_aux_vertsign&apos;, null, [c1], null);&#xd;
+						if (form_aux &amp;&amp; form_aux.rowsCount &gt; 0) {&#xd;
+							log.info(&quot;&gt;&gt;&gt; Status do Documento: &quot; + form_aux.getValue(0, &quot;statusAssinatura&quot;));	&#xd;
+							&#xd;
+							if (form_aux.getValue(0, &quot;statusAssinatura&quot;) == &quot;Enviando para assinatura&quot;){&#xd;
+								throw &quot;Houve erros durante o envio do documento, verifique novamente.&quot;;&#xd;
+							}&#xd;
+						}&#xd;
+						&#xd;
+									&#xd;
+					}&#xd;
+				}&#xd;
+			} else {&#xd;
+				throw &quot;Não foi possível localizar Formulário Auxiliar com o código da solicitação&quot;;&#xd;
+			}&#xd;
+		} catch (e) {&#xd;
+			throw (&quot;Erro ao enviar documento para integração: &quot; + (e));&#xd;
+		}&#xd;
+		&#xd;
+	&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeTaskSave</eventId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>// Definindo os parâmetros&#xd;
+var parentFolder;&#xd;
+var calendar = java.util.Calendar.getInstance().getTime();&#xd;
+&#xd;
+function beforeTaskSave(colleagueId, nextSequenceId, userList) {&#xd;
+	var atividadeAtual  = getValue(&quot;WKNumState&quot;);&#xd;
+&#xd;
+	if (atividadeAtual == &apos;11&apos; || atividadeAtual == &apos;22&apos;){&#xd;
+		cadastraNovosAssinantes(&apos;1&apos;,&apos;admin&apos;,&apos;SrvCeram971&apos;);&#xd;
+		parentFolder = String(hAPI.getCardValue(&quot;folderID&quot;));&#xd;
+	    getAttach();&#xd;
+	}   &#xd;
+	var docs = hAPI.listAttachments();       &#xd;
+	if (docs.size() &lt;= 0) {&#xd;
+		throw &quot;É preciso anexar o documento para continuar o processo!&quot;;&#xd;
+	}&#xd;
+}&#xd;
+&#xd;
+function executeWebservice(params, callback) {&#xd;
+&#xd;
+    var constraints = [];&#xd;
+&#xd;
+    params.forEach(function (param) {&#xd;
+        constraints.push(DatasetFactory.createConstraint(param.name, param.value, param.value, ConstraintType.MUST));&#xd;
+    });&#xd;
+&#xd;
+    if (constraints.length &gt; 0) {&#xd;
+        var dsAux = DatasetFactory.getDataset(&quot;ds_auxiliar_vertsign&quot;, null, constraints, null);&#xd;
+&#xd;
+        if (callback) {&#xd;
+            if (dsAux.rowsCount &gt; 0) {&#xd;
+                if (dsAux.getValue(0, &quot;Result&quot;) === &quot;OK&quot;) {&#xd;
+                    callback();&#xd;
+                }&#xd;
+            }&#xd;
+        }&#xd;
+    }&#xd;
+}&#xd;
+&#xd;
+function retornaDocJaEnviado(codArquivo){&#xd;
+	&#xd;
+	var jaEnviado = false;&#xd;
+	&#xd;
+	var cDoc1 = DatasetFactory.createConstraint(&apos;codArquivo&apos;, codArquivo, codArquivo, ConstraintType.MUST);&#xd;
+	var cDoc2 = DatasetFactory.createConstraint(&apos;metadata#active&apos;, true, true, ConstraintType.MUST);&#xd;
+	var dsDoc = DatasetFactory.getDataset(&apos;ds_form_aux_vertsign&apos;, null, [cDoc1, cDoc2], null);&#xd;
+&#xd;
+	if (dsDoc &amp;&amp; dsDoc.rowsCount &gt; 0) {	&#xd;
+		if (dsDoc.getValue(0,&quot;statusAssinatura&quot;) == &quot;Enviando para assinatura&quot; ||&#xd;
+			dsDoc.getValue(0,&quot;statusAssinatura&quot;) == &quot;Pendente Assinatura&quot; ||&#xd;
+			dsDoc.getValue(0,&quot;statusAssinatura&quot;) == &quot;Assinado&quot;){&#xd;
+			jaEnviado = true;&#xd;
+		}&#xd;
+	}&#xd;
+	&#xd;
+	return jaEnviado;&#xd;
+}&#xd;
+&#xd;
+function getAttach() {&#xd;
+	&#xd;
+    var anexos = new java.util.ArrayList();&#xd;
+    var docs = hAPI.listAttachments();     &#xd;
+    log.info(&apos;documentos &apos;+docs);&#xd;
+    &#xd;
+    if (docs.size() &gt; 0) {&#xd;
+        for (var i = 0; i &lt; docs.size(); i++) {&#xd;
+    &#xd;
+   &#xd;
+				//inicia a integracao do documento&#xd;
+					var doc = docs.get(i);&#xd;
+		            log.info(&apos;documentos2 &apos;+doc);&#xd;
+		            /*** Validacao se o documento que esta anexo já foi enviado para assinatura ***/&#xd;
+		            &#xd;
+		            if (!retornaDocJaEnviado(doc.getDocumentId())){&#xd;
+		            	&#xd;
+				            	var idAnexo = doc.getDocumentId();&#xd;
+				                var vrAnexo = doc.getVersion();&#xd;
+				                var dsAnexo = doc.getDocumentDescription();&#xd;
+				                log.info(&apos;documento1 &apos;+idAnexo );&#xd;
+				                var camposItem = hAPI.getCardData(getValue(&quot;WKNumProces&quot;));&#xd;
+				            	var contadorItem = camposItem.keySet().iterator();&#xd;
+				        while (contadorItem.hasNext()) {&#xd;
+				                	&#xd;
+				                	&#xd;
+				                	log.info(&apos;ENTREIII O M &apos;);&#xd;
+				            		var idItem = contadorItem.next();&#xd;
+				            		log.info(&apos;Campo. &apos; + idItem);&#xd;
+				            		var campo = idItem.split(&apos;___&apos;)[0];&#xd;
+				            		var seqItem = idItem.split(&apos;___&apos;)[1];&#xd;
+				            		log.info(&apos;Seq. &apos; + seqItem);&#xd;
+				           if (seqItem != undefined &amp;&amp; campo == &quot;ENVIA_DOC&quot;) {&#xd;
+				            			log.info(&apos;Sequencia.....&apos; + seqItem);&#xd;
+				            			var integrar = getValueForm(&quot;integrar___&quot; + seqItem, &quot;&quot;) + &quot;&quot;;&#xd;
+				            			var idDoc = getValueForm(&quot;id_doc___&quot; + seqItem, &quot;&quot;) + &quot;&quot;;&#xd;
+				            			var versaoDoc = getValueForm(&quot;versao_doc___&quot; + seqItem, &quot;&quot;) + &quot;&quot;;&#xd;
+				            			log.info(&apos;documento2 &apos;+idDoc );&#xd;
+&#xd;
+				            	if (integrar ==&apos;S&apos; &amp;&amp; idDoc == idAnexo) {	&#xd;
+				                	&#xd;
+				                	&#xd;
+				                // Cria o documento na pasta informada&#xd;
+				                // Funcao retorna &apos;true&apos; para documento criado e &apos;false&apos; para qualquer erro&#xd;
+				                	if (createDocument(doc, parentFolder)){&#xd;
+				                &#xd;
+					                	// Cria registro de formulario&#xd;
+					                    var nmArquivo = {&#xd;
+					                        name: &quot;nmArquivo&quot;,&#xd;
+					                        value: dsAnexo&#xd;
+					                    };&#xd;
+					                    var codArquivo = {&#xd;
+					                        name: &quot;codArquivo&quot;,&#xd;
+					                        value: idAnexo&#xd;
+					                    };&#xd;
+					                    var vrArquivo = {&#xd;
+					                        name: &quot;vrArquivo&quot;,&#xd;
+					                        value: vrAnexo&#xd;
+					                    };&#xd;
+					                    var codPasta = {&#xd;
+					                        name: &quot;codPasta&quot;,&#xd;
+					                        value: parentFolder&#xd;
+					                    };&#xd;
+					                    &#xd;
+					                    var codRemetente = {&#xd;
+					                        name: &quot;codRemetente&quot;,&#xd;
+					                        value: getValue(&quot;WKUser&quot;)&#xd;
+					                    };&#xd;
+					                    &#xd;
+					                    var nmRemetente = {&#xd;
+					                        name: &quot;nmRemetente&quot;,&#xd;
+					                        value: getValue(&quot;WKUser&quot;) + &quot; - &quot; + retornaColleague(getValue(&quot;WKUser&quot;))&#xd;
+					                    };            &#xd;
+					                    &#xd;
+					                    var status = {&#xd;
+					                        name: &quot;status&quot;,&#xd;
+					                        value: &quot;Enviando para assinatura&quot;&#xd;
+					                    };&#xd;
+					                    var metodo = {&#xd;
+					                        name: &quot;metodo&quot;,&#xd;
+					                        value: &quot;create&quot;&#xd;
+					                    };&#xd;
+					                    &#xd;
+					                    log.info(&apos;array signers &apos;+hAPI.getCardValue(&quot;arrSigners&quot;));&#xd;
+					                    var jsonSigners = {&#xd;
+					                        name: &quot;jsonSigners&quot;,&#xd;
+					                        value: hAPI.getCardValue(&quot;arrSigners&quot;)&#xd;
+					                    };&#xd;
+					                                &#xd;
+					                    var numSolic = {&#xd;
+					                    	name: &quot;numSolic&quot;,&#xd;
+					                        value: getValue(&quot;WKNumProces&quot;)            		&#xd;
+					                    };            &#xd;
+			&#xd;
+					                    var constraints = [jsonSigners, nmArquivo, codArquivo, vrArquivo, codPasta, codRemetente,status, metodo,numSolic,nmRemetente];&#xd;
+			&#xd;
+					                    executeWebservice(constraints, function () {&#xd;
+					                        log.info(&quot;Enviando documento para assinatura&quot;);&#xd;
+					                    });&#xd;
+					                } else {&#xd;
+					                	throw (&quot;Houve erros durante a publicação do anexo. Não será possível prosseguir&quot;);&#xd;
+					                }&#xd;
+				            	}    &#xd;
+				            }&#xd;
+				        }&#xd;
+		            } else {&#xd;
+		            	throw (&quot;Documento já enviado para assinatura. Documento: &quot; + doc.getDocumentId());&#xd;
+		            } 	&#xd;
+				//fim integracao do documento	&#xd;
+				}&#xd;
+&#xd;
+    } else {&#xd;
+        throw &quot;É preciso anexar o documento para continuar o processo!&quot;;&#xd;
+    }&#xd;
+}&#xd;
+&#xd;
+function retornaColleague(usuario){&#xd;
+	&#xd;
+	var nome      = usuario;&#xd;
+	var c1 		  = DatasetFactory.createConstraint(&apos;colleaguePK.colleagueId&apos;, usuario, usuario, ConstraintType.MUST);&#xd;
+	var colleague = DatasetFactory.getDataset(&apos;colleague&apos;, null, [c1], null);&#xd;
+	&#xd;
+	if (colleague &amp;&amp; colleague.rowsCount &gt; 0){&#xd;
+		nome = colleague.getValue(0, &quot;colleagueName&quot;);&#xd;
+	} &#xd;
+	&#xd;
+	return nome;&#xd;
+}&#xd;
+&#xd;
+function createDocument(document, parentFolder) {&#xd;
+	&#xd;
+	try {&#xd;
+		if (document &amp;&amp; parentFolder) {&#xd;
+	        document.setParentDocumentId(Number(parentFolder));&#xd;
+	        document.setVersionDescription(&quot;Processo: &quot; + getValue(&quot;WKNumProces&quot;));&#xd;
+	        document.setExpires(false);&#xd;
+	        document.setCreateDate(calendar);&#xd;
+	        document.setInheritSecurity(true);&#xd;
+	        document.setTopicId(1);&#xd;
+	        document.setUserNotify(false);&#xd;
+	        document.setValidationStartDate(calendar);&#xd;
+	        document.setVersionOption(&quot;0&quot;);&#xd;
+	        document.setUpdateIsoProperties(true);&#xd;
+&#xd;
+	        // Publica o documento&#xd;
+	        hAPI.publishWorkflowAttachment(document);&#xd;
+	        return true;&#xd;
+	    } else {&#xd;
+	    	return false;&#xd;
+	    }&#xd;
+	} catch (e) {&#xd;
+		return false;&#xd;
+	}    &#xd;
+}&#xd;
+&#xd;
+function cadastraNovosAssinantes(company, user, password)&#xd;
+{&#xd;
+	var atividadeAtual  = getValue(&quot;WKNumState&quot;);&#xd;
+	if (atividadeAtual == &apos;11&apos;){&#xd;
+		var camposItem = hAPI.getCardData(getValue(&quot;WKNumProces&quot;));&#xd;
+		var contadorItem = camposItem.keySet().iterator();&#xd;
+		var i = 0;&#xd;
+		while (contadorItem.hasNext()) {&#xd;
+			var idItem = contadorItem.next();&#xd;
+			var campo = idItem.split(&apos;___&apos;)[0];&#xd;
+			var seqItem = idItem.split(&apos;___&apos;)[1];&#xd;
+			if (seqItem != undefined &amp;&amp; campo == &quot;TABNAMENEW&quot;) {&#xd;
+				i += 1;&#xd;
+	&#xd;
+				var cCpf = getValueForm(&quot;tabCpfNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;;&#xd;
+				var cEmail = getValueForm(&quot;tabEmailNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;;&#xd;
+				var cpf = getValueForm(&quot;tabCpfNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;;&#xd;
+				var email = getValueForm(&quot;tabEmailNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;;&#xd;
+				var nome = getValueForm(&quot;tabNameNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;;&#xd;
+				var tipoAssinatura = getValueForm(&quot;tabTipoAssinaturaNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;;&#xd;
+				var titulo = getValueForm(&quot;tabTituloNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;;&#xd;
+				&#xd;
+				var c1 = DatasetFactory.createConstraint(&apos;cpf&apos;, a2hex(getValueForm(&quot;tabCpfNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;),  a2hex(getValueForm(&quot;tabCpfNew___&quot; + seqItem,&quot;&quot;)+ &quot;&quot;), ConstraintType.MUST);&#xd;
+				var dsParamGeral = DatasetFactory.getDataset(&apos;ds_vertsign_assinantes&apos;, null, [c1], null);&#xd;
+	&#xd;
+				if (dsParamGeral.values.length &gt; 0) {&#xd;
+					log.info(&apos;não entrou!&apos;);&#xd;
+				} else {&#xd;
+	&#xd;
+					log.info(&quot;###### ASSINANTE AINDA NAO EXISTE!&quot;);&#xd;
+					&#xd;
+					//A CADA ITERACAO, SE O USUARIO NAO FOI SINCRONIZADO É PRECISO INSTANCIAR AS VARIÁVEIS ABAIXO,&#xd;
+					//PARA QUE NAO HAJA DUPLICIDADE DOS REGISTROS DO FORMULARIO (CAUSANDO A CRIACAO DE MAIS DE UM REGISTRO DE FORMULARIO PARA O MESMO REGISTRO DO FOR) &#xd;
+					var properties = {};&#xd;
+					properties[&quot;disable.chunking&quot;] = &quot;true&quot;;&#xd;
+					properties[&quot;log.soap.messages&quot;] = &quot;true&quot;;&#xd;
+					//CHAMADA DO SERVICO E INSTANCIAÇAO DAS CLASSES PARA A CHAMADA DO METODO	&#xd;
+					var serviceManager = ServiceManager.getService(&quot;WSCardService&quot;);&#xd;
+					var serviceInstance = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.ECMCardServiceService&quot;);&#xd;
+					var service = serviceInstance.getCardServicePort();	    		    &#xd;
+					var customClient = serviceManager.getCustomClient(service, &quot;com.totvs.technology.ecm.dm.ws.CardService&quot;, properties);&#xd;
+					&#xd;
+					var attachment = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.Attachment&quot;);&#xd;
+					var relatedDocument = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.RelatedDocumentDto&quot;);&#xd;
+					var documentSecurity = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.DocumentSecurityConfigDto&quot;);&#xd;
+					var approver = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.ApproverDto&quot;);&#xd;
+					&#xd;
+					var cardDtoArray = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardDtoArray&quot;);&#xd;
+					var cardDto = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardDto&quot;);		&#xd;
+					&#xd;
+					var cardFieldDto1 = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardFieldDto&quot;);&#xd;
+					var cardFieldDto2 = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardFieldDto&quot;);&#xd;
+					var cardFieldDto3 = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardFieldDto&quot;);&#xd;
+					var cardFieldDto4 = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardFieldDto&quot;);&#xd;
+					var cardFieldDto5 = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardFieldDto&quot;);&#xd;
+					var cardFieldDto6 = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardFieldDto&quot;);&#xd;
+					var cardFieldDto7 = serviceManager.instantiate(&quot;com.totvs.technology.ecm.dm.ws.CardFieldDto&quot;);&#xd;
+					&#xd;
+					&#xd;
+					cardDto.getAttachs().add(attachment);&#xd;
+					cardDto.getReldocs().add(relatedDocument);&#xd;
+					cardDto.getDocsecurity().add(documentSecurity);&#xd;
+					cardDto.getDocapprovers().add(approver);&#xd;
+					&#xd;
+					//ADICIONA NO ARRAY OS METADADOS DO REGISTRO DE FORMULARIO &#xd;
+					cardDto.setDocumentDescription(nome);&#xd;
+					cardDto.setAdditionalComments(&quot;&quot;);&#xd;
+					cardDto.setParentDocumentId(487413);&#xd;
+					cardDto.setExpires(false);&#xd;
+					cardDto.setUserNotify(false);&#xd;
+					cardDto.setInheritSecurity(true);&#xd;
+					cardDto.setVersionDescription(&quot;&quot;);&#xd;
+					cardDto.setDocumentKeyWord(&quot;&quot;);&#xd;
+					&#xd;
+					//ADICIONA NO ARRAY OS DADOS DOS CAMPOS DO FORMULARIO: NOME E O VALOR	&#xd;
+					cardFieldDto1.setField(&quot;cCpf&quot;);&#xd;
+					cardFieldDto1.setValue(cCpf);&#xd;
+					cardDto.getCardData().add(cardFieldDto1);&#xd;
+					&#xd;
+					cardFieldDto2.setField(&quot;cEmail&quot;);&#xd;
+					cardFieldDto2.setValue(cEmail);&#xd;
+					cardDto.getCardData().add(cardFieldDto2);&#xd;
+					&#xd;
+					cardFieldDto3.setField(&quot;cpf&quot;);&#xd;
+					cardFieldDto3.setValue(a2hex(cpf));&#xd;
+					cardDto.getCardData().add(cardFieldDto3);&#xd;
+					&#xd;
+					cardFieldDto4.setField(&quot;email&quot;);&#xd;
+					cardFieldDto4.setValue(a2hex(email));&#xd;
+					cardDto.getCardData().add(cardFieldDto4);&#xd;
+					&#xd;
+					cardFieldDto5.setField(&quot;nome&quot;);&#xd;
+					cardFieldDto5.setValue(nome);&#xd;
+					cardDto.getCardData().add(cardFieldDto5);&#xd;
+					&#xd;
+					cardFieldDto6.setField(&quot;tipoAssinatura&quot;);&#xd;
+					cardFieldDto6.setValue(tipoAssinatura);&#xd;
+					cardDto.getCardData().add(cardFieldDto6);&#xd;
+					&#xd;
+					cardFieldDto7.setField(&quot;titulo&quot;);&#xd;
+					cardFieldDto7.setValue(titulo);&#xd;
+					cardDto.getCardData().add(cardFieldDto7);&#xd;
+					&#xd;
+					// ADICIONA O REGISTRO NO ARRAY DO REGISTRO DE FORMULARIO&#xd;
+					cardDtoArray.getItem().add(cardDto);&#xd;
+					&#xd;
+					//CHAMADA METODO PARA CRIACAO DOS REGISTROS DE FORMULARIO&#xd;
+					result = customClient.create(company, user, password, cardDtoArray);&#xd;
+					log.info(&quot;###### REGISTRO ADICIONADO AOS ASSINANTES&quot;);&#xd;
+					&#xd;
+				}&#xd;
+				&#xd;
+			}&#xd;
+		}&#xd;
+	}	&#xd;
+}&#xd;
+&#xd;
+function hex2a(r){&#xd;
+	for(var t=String(r),n=&quot;&quot;,e=0;e&lt;t.length&amp;&amp;&quot;00&quot;!==t.substr(e,2);e+=2)&#xd;
+		n+=String.fromCharCode(parseInt(t.substr(e,2),16));&#xd;
+	return n&#xd;
+}&#xd;
+&#xd;
+function a2hex(r){&#xd;
+	for(var t=[],n=0,e=(r=String(r)).length;n&lt;e;n++)&#xd;
+		{var o=Number(r.charCodeAt(n)).toString(16);t.push(o)}&#xd;
+	return t.join(&quot;&quot;)&#xd;
+}&#xd;
+&#xd;
+function getValueForm(campo, padrao) {&#xd;
+	log.info(&quot;Campo........&quot; + campo);&#xd;
+	var valor = hAPI.getCardValue(campo);&#xd;
+	if (padrao == &quot;tipoPessoa&quot;)&#xd;
+		if (valor.indexOf(&quot;/0000-&quot;) == -1)&#xd;
+			valor = &quot;F&quot;;&#xd;
+		else&#xd;
+			valor = &quot;J&quot;;&#xd;
+	log.info(&quot;Valor........&quot; + valor);&#xd;
+	if (valor == &quot;&quot; || valor == &quot;&quot;) {&#xd;
+		valor = padrao;&#xd;
+		log.info(&quot;Valor padrÃ&#x83;Â&#x83;Ã&#x82;Â&#x83;Ã&#x83;Â&#x82;Ã&#x82;Â&#x83;Ã&#x83;Â&#x83;Ã&#x82;Â&#x82;Ã&#x83;Â&#x82;Ã&#x82;Â£o........&quot; + valor);&#xd;
+	}&#xd;
+	return valor;&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+  </list>
+  <list/>
+  <list>
+    <SwimLane>
+      <color>FFFFFF</color>
+      <height>671</height>
+      <width>1251</width>
+      <positionX>10</positionX>
+      <positionY>10</positionY>
+      <stateName>Analise de Documentos</stateName>
+      <type>1</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>1</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>808080</color>
+      <height>167</height>
+      <width>1221</width>
+      <positionX>40</positionX>
+      <positionY>10</positionY>
+      <stateName>Solicitante</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>2</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>C0C0C0</color>
+      <height>167</height>
+      <width>1221</width>
+      <positionX>40</positionX>
+      <positionY>177</positionY>
+      <stateName>Jurídico</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>3</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>82b0b7</color>
+      <height>167</height>
+      <width>1221</width>
+      <positionX>40</positionX>
+      <positionY>344</positionY>
+      <stateName>Projetos</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>adc9ac</color>
+      <height>170</height>
+      <width>1221</width>
+      <positionX>40</positionX>
+      <positionY>511</positionY>
+      <stateName>Fluig</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <sequence>5</sequence>
+      </swimLanePK>
+    </SwimLane>
+  </list>
+  <list>
+    <ProcessComponGraf>
+      <componType>1</componType>
+      <positionX>210</positionX>
+      <positionY>10</positionY>
+      <processComponGrafPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <componGrafSequence>7</componGrafSequence>
+      </processComponGrafPK>
+      <stateName>Incluir o documento e o contrato social</stateName>
+    </ProcessComponGraf>
+    <ProcessComponGraf>
+      <componType>1</componType>
+      <positionX>810</positionX>
+      <positionY>560</positionY>
+      <processComponGrafPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <componGrafSequence>29</componGrafSequence>
+      </processComponGrafPK>
+      <stateName>Atividade que verifica quando o documento foi completamente assinado</stateName>
+    </ProcessComponGraf>
+  </list>
+  <list>
+    <ProcessLinkAssoc>
+      <processLinkAssocPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>8</linkSequence>
+      </processLinkAssocPK>
+      <initialStateSequence>7</initialStateSequence>
+      <finalStateSequence>4</finalStateSequence>
+    </ProcessLinkAssoc>
+    <ProcessLinkAssoc>
+      <processLinkAssocPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>1</version>
+        <linkSequence>30</linkSequence>
+      </processLinkAssocPK>
+      <initialStateSequence>29</initialStateSequence>
+      <finalStateSequence>18</finalStateSequence>
+    </ProcessLinkAssoc>
+  </list>
+  <list>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>30</version>
+        <linkSequence>14</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>313</positionX>
+      <positionY>106</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>30</version>
+        <linkSequence>15</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>512</positionX>
+      <positionY>249</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>30</version>
+        <linkSequence>23</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>647</positionX>
+      <positionY>566</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>30</version>
+        <linkSequence>24</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>532</positionX>
+      <positionY>441</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>30</version>
+        <linkSequence>8</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>167</positionX>
+      <positionY>48</positionY>
+    </ProcessLinkBend>
+  </list>
+  <list>
+    <ProcessStateTrigger>
+      <processStateTriggerPK>
+        <companyId>1</companyId>
+        <processId>Analise e Assinatura Eletronica de Documentos</processId>
+        <version>30</version>
+        <stateSequence>18</stateSequence>
+        <triggerSequence>0</triggerSequence>
+      </processStateTriggerPK>
+      <runType>0</runType>
+      <type>3</type>
+      <value>Analise e Assinatura Eletronica de Documentos.intermediateconditional18.js</value>
+      <timeTrigger>0:0:0</timeTrigger>
+      <frequencia>10</frequencia>
+    </ProcessStateTrigger>
+  </list>
+  <list/>
+  <list/>
+  <list>
+    <ProcessStateService>
+      <companyId>1</companyId>
+      <processId>Analise e Assinatura Eletronica de Documentos</processId>
+      <version>1</version>
+      <sequence>16</sequence>
+      <attempts>0</attempts>
+      <sucessFullMessage>Integração executada com sucesso</sucessFullMessage>
+      <frequency>1</frequency>
+      <frequencyType>0</frequencyType>
+    </ProcessStateService>
+  </list>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+</list>

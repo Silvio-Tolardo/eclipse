@@ -1,0 +1,1959 @@
+<list>
+  <ProcessDefinition>
+    <processDefinitionPK>
+      <companyId>1</companyId>
+      <processId>inc_asstecnica</processId>
+    </processDefinitionPK>
+    <processDescription>Inclusão de Assistência Técnica</processDescription>
+    <instruction></instruction>
+    <active>true</active>
+    <publicProcess>false</publicProcess>
+    <volumeId>Default</volumeId>
+    <categoryId>Assistência Técnica</categoryId>
+    <managerEngineAllocationId>Papel</managerEngineAllocationId>
+    <managerEngineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;assistencia_tecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</managerEngineAllocationConfiguration>
+    <snapshotFrequency>0</snapshotFrequency>
+    <baseDay>0</baseDay>
+    <baseMonth>0</baseMonth>
+    <periodId>Default</periodId>
+    <uniqueCardVersion>false</uniqueCardVersion>
+    <keyWord></keyWord>
+    <complementsLevel>2</complementsLevel>
+    <notifyRequisitionerComplements>true</notifyRequisitionerComplements>
+    <notifyManagerComplements>false</notifyManagerComplements>
+    <deadlineTime>0</deadlineTime>
+    <warningDeadlineTime>0</warningDeadlineTime>
+    <notifyAuthorityComplements>true</notifyAuthorityComplements>
+  </ProcessDefinition>
+  <ProcessDefinitionVersion>
+    <processDefinitionVersionPK>
+      <companyId>1</companyId>
+      <processId>Inclusão de Assistência Técnica</processId>
+      <version>14</version>
+    </processDefinitionVersionPK>
+    <versionDescription></versionDescription>
+    <formId>53</formId>
+    <editionMode>true</editionMode>
+    <updateAttachmentsVersion>false</updateAttachmentsVersion>
+    <controlsAttachmentsSecurity>false</controlsAttachmentsSecurity>
+    <active>true</active>
+    <blockedVersion>false</blockedVersion>
+    <counterSign>false</counterSign>
+    <openInstances>0</openInstances>
+    <bpmnVersion>2</bpmnVersion>
+    <processStates/>
+    <favorito>false</favorito>
+    <inheritFormSecurity>false</inheritFormSecurity>
+    <mobileReady>true</mobileReady>
+  </ProcessDefinitionVersion>
+  <list>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </processStatePK>
+      <stateName>Início</stateName>
+      <stateDescription>Início</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;inc_asstecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>true</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>130</positionX>
+      <positionY>200</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>10</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>5</sequence>
+      </processStatePK>
+      <stateName>Anexar Fotos e Preenchimento da Ficha</stateName>
+      <stateDescription>Anexar Fotos e Preenchimento da Ficha</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>310</positionX>
+      <positionY>190</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>12</sequence>
+      </processStatePK>
+      <stateName>Avaliar Dados Enviados</stateName>
+      <stateDescription>Avaliar Dados Enviados</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;assistencia_tecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>470</positionX>
+      <positionY>81</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>14</sequence>
+      </processStatePK>
+      <stateName>Revisar Dados Enviados</stateName>
+      <stateDescription>Revisar Dados Enviados</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;4&lt;/BaseActivity&gt;&lt;Returns&gt;First&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>530</positionX>
+      <positionY>190</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>16</sequence>
+      </processStatePK>
+      <stateName>Anexar Relatório Técnico</stateName>
+      <stateDescription>Anexar Relatório Técnico</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;assistencia_tecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>620</positionX>
+      <positionY>74</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>19</sequence>
+      </processStatePK>
+      <stateName>Avaliar Procedência</stateName>
+      <stateDescription>Avaliar Procedência</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;assistencia_tecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>770</positionX>
+      <positionY>81</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>24</sequence>
+      </processStatePK>
+      <stateName>Forma de Pagamento</stateName>
+      <stateDescription>Forma de Pagamento</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;assistencia_tecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>930</positionX>
+      <positionY>45</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>30</sequence>
+      </processStatePK>
+      <stateName>Anexar Comprovante de Depósito</stateName>
+      <stateDescription>Anexar Comprovante de Depósito</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;assistencia_tecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1070</positionX>
+      <positionY>40</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>33</sequence>
+      </processStatePK>
+      <stateName>Gera Bonificação</stateName>
+      <stateDescription>Gera Bonificação</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1070</positionX>
+      <positionY>550</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>82</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>1</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>38</sequence>
+      </processStatePK>
+      <stateName>Erro na Geração da Bonificação</stateName>
+      <stateDescription>Erro na Geração da Bonificação</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;assistencia_tecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1230</positionX>
+      <positionY>120</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>46</sequence>
+      </processStatePK>
+      <stateName>Gera Devolução</stateName>
+      <stateDescription>Gera Devolução</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1170</positionX>
+      <positionY>473</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>82</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>1</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>50</sequence>
+      </processStatePK>
+      <stateName>Erro na Geração da Devolução</stateName>
+      <stateDescription>Erro na Geração da Devolução</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1230</positionX>
+      <positionY>32</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>53</sequence>
+      </processStatePK>
+      <stateName>Informação para Melhoria</stateName>
+      <stateDescription>Informação para Melhoria</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;assistencia_tecnica&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>990</positionX>
+      <positionY>140</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>37</sequence>
+      </processStatePK>
+      <stateName>Intermediário</stateName>
+      <stateDescription>Intermediário</stateDescription>
+      <instruction>Evento intermediário do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>1</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1146</positionX>
+      <positionY>540</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>43</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <parentSequence>33</parentSequence>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>49</sequence>
+      </processStatePK>
+      <stateName>Intermediário</stateName>
+      <stateDescription>Intermediário</stateDescription>
+      <instruction>Evento intermediário do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>1</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1240</positionX>
+      <positionY>493</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>43</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <parentSequence>46</parentSequence>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>28</sequence>
+      </processStatePK>
+      <stateName>Forma de Reembolso</stateName>
+      <stateDescription>Forma de Reembolso</stateDescription>
+      <joint>false</joint>
+      <initialState>false</initialState>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <automatic>true</automatic>
+      <positionX>950</positionX>
+      <positionY>440</positionY>
+      <inhibitTransfer>false</inhibitTransfer>
+      <stateType>1</stateType>
+      <bpmnType>120</bpmnType>
+      <signalId>0</signalId>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>42</sequence>
+      </processStatePK>
+      <stateName>Tipo de Processo?</stateName>
+      <stateDescription>Tipo de Processo?</stateDescription>
+      <joint>false</joint>
+      <initialState>false</initialState>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <automatic>true</automatic>
+      <positionX>330</positionX>
+      <positionY>472</positionY>
+      <inhibitTransfer>false</inhibitTransfer>
+      <stateType>1</stateType>
+      <bpmnType>120</bpmnType>
+      <signalId>0</signalId>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>9</sequence>
+      </processStatePK>
+      <stateName>Fim</stateName>
+      <stateDescription>Fim</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>1350</positionX>
+      <positionY>520</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+  </list>
+  <list>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <expressionOrder>1</expressionOrder>
+        <version>14</version>
+        <sequence>28</sequence>
+      </conditionProcessStatePK>
+      <condition>( hAPI.getCardValue(&apos;forma_pagamento&apos;) == &apos;1&apos; )</condition>
+      <destinationSequenceId>30</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <expressionOrder>2</expressionOrder>
+        <version>14</version>
+        <sequence>28</sequence>
+      </conditionProcessStatePK>
+      <condition>( hAPI.getCardValue(&apos;forma_pagamento&apos;) == &apos;2&apos; )</condition>
+      <destinationSequenceId>33</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <expressionOrder>3</expressionOrder>
+        <version>14</version>
+        <sequence>28</sequence>
+      </conditionProcessStatePK>
+      <condition>( hAPI.getCardValue(&apos;forma_pagamento&apos;) == &apos;3&apos; )</condition>
+      <destinationSequenceId>46</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <expressionOrder>4</expressionOrder>
+        <version>14</version>
+        <sequence>28</sequence>
+      </conditionProcessStatePK>
+      <condition>( hAPI.getCardValue(&apos;forma_pagamento&apos;) == &apos;4&apos; )</condition>
+      <destinationSequenceId>53</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <expressionOrder>1</expressionOrder>
+        <version>14</version>
+        <sequence>42</sequence>
+      </conditionProcessStatePK>
+      <condition>( hAPI.getCardValue(&apos;tipo_processo&apos;) == &apos;I&apos; )</condition>
+      <destinationSequenceId>5</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <expressionOrder>2</expressionOrder>
+        <version>14</version>
+        <sequence>42</sequence>
+      </conditionProcessStatePK>
+      <condition>( hAPI.getCardValue(&apos;tipo_processo&apos;) == &apos;E&apos; )</condition>
+      <destinationSequenceId>12</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+  </list>
+  <list>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>13</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>5</initialStateSequence>
+      <finalStateSequence>12</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>15</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>12</initialStateSequence>
+      <finalStateSequence>14</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>17</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>12</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>18</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>14</initialStateSequence>
+      <finalStateSequence>12</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>20</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>16</initialStateSequence>
+      <finalStateSequence>19</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>25</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>19</initialStateSequence>
+      <finalStateSequence>24</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>29</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>24</initialStateSequence>
+      <finalStateSequence>28</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>31</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>28</initialStateSequence>
+      <finalStateSequence>30</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>32</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>30</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>35</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>33</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>36</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>28</initialStateSequence>
+      <finalStateSequence>33</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>39</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>37</initialStateSequence>
+      <finalStateSequence>38</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>40</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>38</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>41</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>38</initialStateSequence>
+      <finalStateSequence>33</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>43</linkSequence>
+      </processLinkPK>
+      <actionLabel>Encaminhar</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>4</initialStateSequence>
+      <finalStateSequence>42</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>44</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>42</initialStateSequence>
+      <finalStateSequence>5</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>45</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>42</initialStateSequence>
+      <finalStateSequence>12</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>47</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>28</initialStateSequence>
+      <finalStateSequence>46</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>48</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>46</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>51</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>49</initialStateSequence>
+      <finalStateSequence>50</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>52</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>50</initialStateSequence>
+      <finalStateSequence>46</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>55</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>53</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>56</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>28</initialStateSequence>
+      <finalStateSequence>53</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>57</linkSequence>
+      </processLinkPK>
+      <actionLabel>Improcedente</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>19</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name>Improcedente</name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+  </list>
+  <list/>
+  <list>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>servicetask46</eventId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function servicetask46(attempt, message) {
+
+		var process = getValue(&quot;WKNumProces&quot;);
+		var camposItem = hAPI.getCardData(getValue(&quot;WKNumProces&quot;));
+		var cod_cliente = hAPI.getCardValue(&apos;cod_cliente&apos;);
+		log.info(&apos;CLIENTE COD &apos;+ cod_cliente);
+		log.info(camposItem);
+		var contadorItem = camposItem.keySet().iterator();
+		log.info(contadorItem);
+
+		var formData = new java.util.HashMap();
+		
+		log.info(&apos;ENTROU OBSERVACOES&apos;);
+		valor = &quot;Processo de Devolução Gerado pelo Processo de Assistência Técnica número: &quot;+process;
+		formData.put(&quot;descricao&quot;, valor);
+		
+		log.info(&apos;ENTROU VALOR_BONIFICACAO&apos;);
+		valor = hAPI.getCardValue(&apos;valor_bonficacao&apos;); //$(&apos;#valor_bonficacao&apos;).val();
+		formData.put(&quot;val_invest&quot;, valor);
+		
+		log.info(&apos;ENTROU COD_CLIENTE&apos;);
+		valor = hAPI.getCardValue(&apos;cnpj&apos;).replace(&quot;.&quot;, &quot;&quot;).replace(&quot;/&quot;, &quot;&quot;).replace(
+					&quot;-&quot;, &quot;&quot;);
+		formData.put(&quot;cod_cliente&quot;,valor);
+		
+		
+		valor = hAPI.getCardValue(&apos;razao_social_zoom&apos;);
+		formData.put(&quot;razao_social_zoom&quot;, valor);
+		
+		valor =  hAPI.getCardValue(&apos;razao_social&apos;);
+		formData.put(&quot;razao_social&quot;, valor);
+		
+		
+		formData.put(&quot;dev_asstecnica&quot;, &quot;S&quot;);
+		
+		//formData.put(idItem, valor);
+
+		var users = new java.util.ArrayList();
+		
+		// recupera representante do cliente
+		/*var c1 = (DatasetFactory.createConstraint(&quot;cod_cliente&quot;,
+				cod_cliente, cod_cliente, ConstraintType.MUST));
+		var constraints = new Array(c1);
+
+		var matrepcliente = DatasetFactory.getDataset(&quot;clientes_logix&quot;, null,
+				constraints, null);
+		var cod_user = matrepcliente.getValue(0,
+				&quot;cod_user&quot;);
+		log.info(&quot;COD_USER_REP &quot; + cod_user);*/
+		users.add(getValue(&quot;WKUser&quot;));
+		//fim recupera representante do cliente
+		
+		var pedido = hAPI.startProcess(&apos;inc_devolucao&apos;, &apos;79&apos;, users,
+				&quot;Devolução Gerada pela Assistência Técnica &quot; + getValue(&apos;WKNumProces&apos;), true,
+				formData, false);
+
+		log.info(pedido);
+		
+		var numProcesso = getValue(&apos;WKNumProces&apos;);
+		var userId = getValue(&quot;WKUser&quot;);
+		setComment( userId, numProcesso, &apos;Iniciado processo &apos;+ pedido.get(&apos;iProcess&apos;) +&apos; para geracao da devolução. Por favor conclua o preenchimento.&apos; );
+		log.info( pedido );
+		return true;
+	}
+
+	function setComment( user, processo, comentario ){
+		
+		var constraints = new Array();
+		constraints.push( DatasetFactory.createConstraint( &apos;processo&apos;, processo, processo, ConstraintType.MUST) );
+		constraints.push( DatasetFactory.createConstraint( &apos;user&apos;, user, user, ConstraintType.MUST) );
+		constraints.push( DatasetFactory.createConstraint( &apos;comentario&apos;, comentario, comentario, ConstraintType.MUST) );
+	    var dataset = DatasetFactory.getDataset( &apos;setComent&apos;, null, constraints, null);
+		if ( dataset != null ){
+			return dataset.getValue(0, &apos;retorno&apos; );
+		}
+	
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeTaskSave</eventId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function beforeTaskSave(colleagueId, nextSequenceId, userList) {&#xd;
+&#xd;
+	var numState = getValue(&quot;WKNumState&quot;);&#xd;
+	var process = getValue(&quot;WKNumProces&quot;);&#xd;
+	var anexado = false;&#xd;
+	var message = &quot;&quot;;&#xd;
+	var tipoProcesso = hAPI.getCardValue(&apos;tipo_processo&apos;);&#xd;
+&#xd;
+	/*&#xd;
+	 * if(numState == 5 &amp;&amp; hAPI.listAttachments().size() &lt; 1) { message += &quot;&lt;br/&gt;-&#xd;
+	 * É necessario anexar os documentos;&quot; }&#xd;
+	 */&#xd;
+	log.info(&apos;numState &apos;+numState);&#xd;
+	log.info(&apos;tipoProcesso &apos;+tipoProcesso);&#xd;
+	//log.ingo(&apos;temAnexo &apos;+ temAnexo());&#xd;
+	if (numState == &apos;4&apos; || numState == &apos;0&apos; || numState == &apos;1&apos; || numState == &apos;42&apos;) {&#xd;
+		if (tipoProcesso == &apos;E&apos;){&#xd;
+			//if (temAnexo() == false)&#xd;
+			var atv      = getValue(&quot;WKNumState&quot;);&#xd;
+		    var nextAtv  = getValue(&quot;WKNextState&quot;);&#xd;
+&#xd;
+&#xd;
+&#xd;
+		        var anexos   = hAPI.listAttachments();&#xd;
+		        var temAnexo = false;&#xd;
+&#xd;
+		        if (anexos.size() &gt; 0) {&#xd;
+		            temAnexo = true;&#xd;
+		        }&#xd;
+&#xd;
+		        if (!temAnexo) {&#xd;
+		            throw &quot;É preciso anexar o documento para continuar o processo!&quot;;&#xd;
+		        }&#xd;
+&#xd;
+				//message += &quot;&lt;br/&gt;- Faltam anexos do processo! &quot;;&#xd;
+		}&#xd;
+	}&#xd;
+&#xd;
+	if (numState == 5) { // etapa do processo&#xd;
+		if (temAnexo() == false)&#xd;
+			message += &quot;&lt;br/&gt;- Fotos do problema relatado! &quot;;&#xd;
+	}&#xd;
+	&#xd;
+	if (numState == 16) { // etapa do processo&#xd;
+		if (temAnexo() == false)&#xd;
+			message += &quot;&lt;br/&gt;- Relatório Técnico! &quot;;&#xd;
+	}&#xd;
+	&#xd;
+	if (numState == 30) { // etapa do processo&#xd;
+		if (temAnexo() == false)&#xd;
+			message += &quot;&lt;br/&gt;- Anexar Comprovante de Depósito! &quot;;&#xd;
+	}&#xd;
+&#xd;
+	if (message != &quot;&quot;)&#xd;
+		throw &quot;&lt;br/&gt;&lt;strong&gt;Os anexos abaixo são obrigatórios: &lt;/strong&gt;&lt;br/&gt;&quot;&#xd;
+				+ message;&#xd;
+&#xd;
+	function temAnexo() {&#xd;
+		var constraintProcessAttachment = DatasetFactory.createConstraint(&#xd;
+				&apos;processAttachmentPK.processInstanceId&apos;, process, process,&#xd;
+				ConstraintType.MUST);&#xd;
+		var datasetProcessAttachment = DatasetFactory.getDataset(&#xd;
+				&apos;processAttachment&apos;, null, new Array(&#xd;
+						constraintProcessAttachment), null);&#xd;
+&#xd;
+		for (var i = 0; i &lt; datasetProcessAttachment.rowsCount; i++) {&#xd;
+			var constraintProcessHistory1 = DatasetFactory.createConstraint(&#xd;
+					&apos;processHistoryPK.movementSequence&apos;,&#xd;
+					datasetProcessAttachment.getValue(i,&#xd;
+							&quot;originalMovementSequence&quot;),&#xd;
+					datasetProcessAttachment.getValue(i,&#xd;
+							&quot;originalMovementSequence&quot;), ConstraintType.MUST);&#xd;
+			var constraintProcessHistory2 = DatasetFactory.createConstraint(&#xd;
+					&apos;processHistoryPK.processInstanceId&apos;, process, process,&#xd;
+					ConstraintType.MUST);&#xd;
+			var constraintProcessHistory3 = DatasetFactory.createConstraint(&#xd;
+					&apos;processHistoryPK.companyId&apos;, datasetProcessAttachment&#xd;
+							.getValue(i, &quot;processAttachmentPK.companyId&quot;),&#xd;
+					datasetProcessAttachment.getValue(i,&#xd;
+							&quot;processAttachmentPK.companyId&quot;),&#xd;
+					ConstraintType.MUST);&#xd;
+			var constraintProcessHistory4 = DatasetFactory.createConstraint(&#xd;
+					&apos;stateSequence&apos;, numState, numState, ConstraintType.MUST);&#xd;
+			var datasetProcessHistory = DatasetFactory.getDataset(&#xd;
+					&apos;processHistory&apos;, null, new Array(&#xd;
+							constraintProcessHistory1,&#xd;
+							constraintProcessHistory2,&#xd;
+							constraintProcessHistory3,&#xd;
+							constraintProcessHistory4), null);&#xd;
+			for (var j = 0; j &lt; datasetProcessHistory.rowsCount; j++) {&#xd;
+				return true;&#xd;
+			}&#xd;
+		}&#xd;
+		return false;&#xd;
+	}&#xd;
+&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>servicetask33</eventId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function servicetask33(attempt, message) {
+
+	var process = getValue(&quot;WKNumProces&quot;);
+	var camposItem = hAPI.getCardData(getValue(&quot;WKNumProces&quot;));
+	var cod_cliente = hAPI.getCardValue(&apos;cod_cliente&apos;);
+	log.info(&apos;CLIENTE COD &apos;+ cod_cliente);
+	log.info(camposItem);
+	var contadorItem = camposItem.keySet().iterator();
+	log.info(contadorItem);
+
+	var formData = new java.util.HashMap();
+	
+	log.info(&apos;ENTROU OBSERVACOES&apos;);
+	valor = &quot;Processo de Bonificação Gerado pelo Processo de Assistência Técnica número: &quot;+process;
+	formData.put(&quot;descricao&quot;, valor);
+	
+	log.info(&apos;ENTROU VALOR_BONIFICACAO&apos;);
+	valor = hAPI.getCardValue(&apos;valor_bonficacao&apos;); //$(&apos;#valor_bonficacao&apos;).val();
+	formData.put(&quot;val_invest&quot;, valor);
+	
+	log.info(&apos;ENTROU COD_CLIENTE&apos;);
+	valor = hAPI.getCardValue(&apos;cnpj&apos;).replace(&quot;.&quot;, &quot;&quot;).replace(&quot;/&quot;, &quot;&quot;).replace(
+				&quot;-&quot;, &quot;&quot;);
+	formData.put(&quot;cod_cliente&quot;,valor);
+	
+	
+	valor = hAPI.getCardValue(&apos;razao_social_zoom&apos;);
+	formData.put(&quot;razao_social_zoom&quot;, valor);
+	
+	valor =  hAPI.getCardValue(&apos;razao_social&apos;);
+	formData.put(&quot;razao_social&quot;, valor);
+	
+	
+	formData.put(&quot;boni_asstecnica&quot;, &quot;S&quot;);
+	
+	//formData.put(idItem, valor);
+
+	var users = new java.util.ArrayList();
+	
+	
+	// recupera representante do cliente
+	var c1 = (DatasetFactory.createConstraint(&quot;cod_cliente&quot;,
+			cod_cliente, cod_cliente, ConstraintType.MUST));
+	var constraints = new Array(c1);
+
+	var matrepcliente = DatasetFactory.getDataset(&quot;clientes_logix&quot;, null,
+			constraints, null);
+	var cod_user = matrepcliente.getValue(0,
+			&quot;cod_user&quot;);
+	log.info(&quot;COD_USER_REP &quot; + cod_user);
+	users.add(cod_user);
+	//fim recupera representante do cliente
+	
+	var pedido = hAPI.startProcess(&apos;inc_bonificacao&apos;, &apos;52&apos;, users,
+			&quot;Bonificação Gerada pela Assistência Técnica &quot; + getValue(&apos;WKNumProces&apos;), true,
+			formData, false);
+
+	log.info(pedido);
+	
+	var numProcesso = getValue(&apos;WKNumProces&apos;);
+	var userId = getValue(&quot;WKUser&quot;);
+	setComment( userId, numProcesso, &apos;Iniciado processo &apos;+ pedido.get(&apos;iProcess&apos;) +&apos; para geracao da bonificação. Por favor conclua o preenchimento.&apos; );
+	log.info( pedido );
+	return true;
+}
+
+function setComment( user, processo, comentario ){
+	
+	var constraints = new Array();
+	constraints.push( DatasetFactory.createConstraint( &apos;processo&apos;, processo, processo, ConstraintType.MUST) );
+	constraints.push( DatasetFactory.createConstraint( &apos;user&apos;, user, user, ConstraintType.MUST) );
+	constraints.push( DatasetFactory.createConstraint( &apos;comentario&apos;, comentario, comentario, ConstraintType.MUST) );
+    var dataset = DatasetFactory.getDataset( &apos;setComent&apos;, null, constraints, null);
+	if ( dataset != null ){
+		return dataset.getValue(0, &apos;retorno&apos; );
+	}
+}</eventDescription>
+    </WorkflowProcessEvent>
+  </list>
+  <list/>
+  <list>
+    <SwimLane>
+      <color>FFFFFF</color>
+      <height>621</height>
+      <width>1401</width>
+      <positionX>10</positionX>
+      <positionY>10</positionY>
+      <stateName>Assistência Técnica</stateName>
+      <type>1</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>1</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>FF8040</color>
+      <height>207</height>
+      <width>1371</width>
+      <positionX>40</positionX>
+      <positionY>10</positionY>
+      <stateName>Assistência Técnica</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>2</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>8080C0</color>
+      <height>207</height>
+      <width>1371</width>
+      <positionX>40</positionX>
+      <positionY>217</positionY>
+      <stateName>Representante</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>3</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>CA6FB0</color>
+      <height>207</height>
+      <width>1371</width>
+      <positionX>40</positionX>
+      <positionY>424</positionY>
+      <stateName>Fluig</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </swimLanePK>
+    </SwimLane>
+  </list>
+  <list>
+    <ProcessComponGraf>
+      <componType>1</componType>
+      <positionX>170</positionX>
+      <positionY>70</positionY>
+      <processComponGrafPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <componGrafSequence>7</componGrafSequence>
+      </processComponGrafPK>
+      <stateName>Recebe Solicitação e Efetua o Preenchimento da Informação</stateName>
+    </ProcessComponGraf>
+    <ProcessComponGraf>
+      <componType>1</componType>
+      <positionX>790</positionX>
+      <positionY>20</positionY>
+      <processComponGrafPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <componGrafSequence>26</componGrafSequence>
+      </processComponGrafPK>
+      <stateName>Dinheiro ou Bonificação</stateName>
+    </ProcessComponGraf>
+  </list>
+  <list>
+    <ProcessLinkAssoc>
+      <processLinkAssocPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>8</linkSequence>
+      </processLinkAssocPK>
+      <initialStateSequence>7</initialStateSequence>
+      <finalStateSequence>4</finalStateSequence>
+    </ProcessLinkAssoc>
+    <ProcessLinkAssoc>
+      <processLinkAssocPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>1</version>
+        <linkSequence>27</linkSequence>
+      </processLinkAssocPK>
+      <initialStateSequence>26</initialStateSequence>
+      <finalStateSequence>24</finalStateSequence>
+    </ProcessLinkAssoc>
+  </list>
+  <list>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>13</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>363</positionX>
+      <positionY>116</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>31</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1122</positionX>
+      <positionY>490</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>32</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1367</positionX>
+      <positionY>116</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>35</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1367</positionX>
+      <positionY>584</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>36</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>980</positionX>
+      <positionY>584</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>39</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1160</positionX>
+      <positionY>162</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>40</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1367</positionX>
+      <positionY>162</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>41</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1282</positionX>
+      <positionY>584</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>51</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1401</positionX>
+      <positionY>507</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>51</linkSequence>
+        <bendSequence>2</bendSequence>
+      </processLinkBendPK>
+      <positionX>1401</positionX>
+      <positionY>77</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>52</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>1222</positionX>
+      <positionY>86</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>57</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>823</positionX>
+      <positionY>537</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>inc_asstecnica</processId>
+        <version>14</version>
+        <linkSequence>8</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>147</positionX>
+      <positionY>157</positionY>
+    </ProcessLinkBend>
+  </list>
+  <list/>
+  <list/>
+  <list/>
+  <list>
+    <ProcessStateService>
+      <companyId>1</companyId>
+      <processId>inc_asstecnica</processId>
+      <version>1</version>
+      <sequence>33</sequence>
+      <attempts>0</attempts>
+      <sucessFullMessage>Integração executada com sucesso</sucessFullMessage>
+      <frequency>1</frequency>
+      <frequencyType>0</frequencyType>
+    </ProcessStateService>
+    <ProcessStateService>
+      <companyId>1</companyId>
+      <processId>inc_asstecnica</processId>
+      <version>1</version>
+      <sequence>46</sequence>
+      <attempts>0</attempts>
+      <sucessFullMessage>Integração executada com sucesso</sucessFullMessage>
+      <frequency>1</frequency>
+      <frequencyType>0</frequencyType>
+    </ProcessStateService>
+  </list>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+</list>
