@@ -1,0 +1,1 @@
+function enableFields(form) {		var activity = getValue('WKNumState');if (activity == 2) {form.setEnabled('numero_fluig', false);}if (activity == 6) {form.setEnabled('numero_fluig', false);}if (activity == 8) {form.setEnabled('numero_fluig', false);}if (activity == 10) {form.setEnabled('numero_fluig', false);}}

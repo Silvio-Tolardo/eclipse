@@ -1,0 +1,52 @@
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="/style-guide/css/fluig-style-guide.min.css"/>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
+	<script type="text/javascript" src="/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="fluig-style-guide">
+<form name="form" role="form">
+	<div class="row">
+		<div class="form-group col-md-6">
+		    <label for="nome">Nome: </label>
+		    <input type="text" class="form-control" name="nome" id="nome" placeholder="Silvio.tolardo">
+	    </div>
+		<div class="form-group col-md-4">
+		    <label for="email">Email: </label>
+		    <input type="email" class='form-control'name="email" id="email" placeholder="silvio.tolardo@ceramfix.com">
+	    </div>
+		<div class="telefone col-md-2">
+		    <label for="telefone">Telefone: </label>
+		    <input type="text" class='form-control' name="telefone" id="telefone" placeholder="47-996148618">
+		 </div>
+	</div>
+	<div class="row">
+		<div class="form-group col-md-2">
+		    <label for="datanascimento">Data Nascimento: </label>
+		    <input type="Text" class="form-control" name="datanascimento" id="datanascimento" placeholder="26/09/1998">
+		 </div>
+		 <div class="form-group col-md-2">
+		    <label for="cpf">CPF: </label>
+		    <input type="Text" class="form-control" name="cpf" id="cpf" placeholder="xxxxxxxxx.xx">
+		 </div>
+	</div>
+	<div class="row">
+		<div class="form-group col-md-2">
+			<label for="tipoponto">Tipo do Ponto:</label>
+				<div class="radio">
+					<label><input type="radio" name="tipoponto" id="tipoponto">Quiosque</label>
+					<label><input type="radio" name="tipoponto" id="tipoponto">Praia</label>
+					<label><input type="radio" name="tipoponto" id="tipoponto">Restaurante</label>
+				</div>
+		</div>
+	</div>
+</form>
+</div>
+</body>
+<script type="text/javascript">
+var calendarioDatanascimento = FLUIGC.calendar('#datanascimento');
+</script>
+</html>
